@@ -10,7 +10,7 @@ keyLKick = ord("H");
 keyRKick = ord("G");
 
 mapX = 240;
-mapY = 40;
+mapY = 20;
 
 leftArmObj = obj_arm_stick_green;
 rightArmObj = obj_arm_stick_yellow;
