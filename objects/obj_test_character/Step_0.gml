@@ -29,3 +29,7 @@ y += vspd;
 
 
 depth = -y;
+
+if (instance_exists(rightArm)) {
+	sc_limb_handling(rightArm, rightArmX, rightArmY, -1);
+}

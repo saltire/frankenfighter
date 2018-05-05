@@ -1,4 +1,4 @@
-///@param (joy,keyR,keyL,keyD,keyU)
+///@param joy,keyR,keyL,keyD,keyU
 
 var deadzone = 0.2;
 
