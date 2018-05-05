@@ -1,23 +1,26 @@
-if (limbSwap.slot != noone) {
+if (bodyMap.slot != noone) {
   var oldLimb;
-  var newLimb = limbSwap.limb;
+  var newLimb = bodyMap.limb;
   
-  if (limbSwap.slot == 0) {
+  if (bodyMap.slot == 0) {
     oldLimb = rightArm;
     rightArm = newLimb;
   }
-  else if (limbSwap.slot == 1) {
+  else if (bodyMap.slot == 1) {
     oldLimb = leftArm;
     leftArm = newLimb;
   }
-  else if (limbSwap.slot == 2) {
+  else if (bodyMap.slot == 2) {
     oldLimb = rightLeg;
     rightLeg = newLimb;
   }
-  else if (limbSwap.slot == 3) {
+  else if (bodyMap.slot == 3) {
     oldLimb = leftLeg;
     leftLeg = newLimb;
   }
+  
+  bodyMap.slot = noone;
+  bodyMap.limb = noone;
     
   oldLimb.parent = noone;
   oldLimb.x = newLimb.x;

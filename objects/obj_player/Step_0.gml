@@ -3,14 +3,12 @@
 // Initialization
 sc_player_input();
 
-if (limbSwap != noone) {
+if (bodyMap.limb != noone) {
   sc_limb_swap_select();
   
   if (swapReleased) {
     sc_limb_swap();
-    
-    instance_destroy(limbSwap);
-    limbSwap = noone;
+    bodyMap.limb = noone;
   }
 }
 else {

@@ -1,14 +1,14 @@
-limbSwap.slot = noone;
+bodyMap.slot = noone;
 
 if (hInput < 0 && vInput < 0) {
-	limbSwap.slot = 0;
+	bodyMap.slot = 0;
 }
 else if (hInput > 0 && vInput < 0) {
-	limbSwap.slot = 1;
+	bodyMap.slot = 1;
 }
 else if (hInput < 0 && vInput > 0) {
-	limbSwap.slot = 2;
+	bodyMap.slot = 2;
 }
 else if (hInput > 0 && vInput > 0) {
-	limbSwap.slot = 3;
+	bodyMap.slot = 3;
 }

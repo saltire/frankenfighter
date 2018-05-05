@@ -1,5 +1,3 @@
-event_inherited();
-
 joy = 1;
 keyL = vk_left;
 keyR = vk_right;
@@ -10,3 +8,13 @@ keyLPunch = ord("O");
 keyRPunch = ord("I");
 keyLKick = ord("L");
 keyRKick = ord("K");
+
+mapX = 840;
+mapY = 40;
+
+leftArmObj = obj_arm_stick_green;
+rightArmObj = obj_arm_stick_yellow;
+leftLegObj = obj_leg_stick_red;
+rightLegObj = obj_leg_stick_blue;
+
+event_inherited();
