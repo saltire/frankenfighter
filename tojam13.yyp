@@ -194,7 +194,7 @@
             "Key": "89c6d314-2bb6-4c29-adc7-0b7346045717",
             "Value": {
                 "id": "90eb9510-d2b2-4781-a7d6-f4a442cfd81a",
-                "resourcePath": "scripts\\sc_limb_swap\\sc_limb_swap.yy",
+                "resourcePath": "scripts\\sc_limb_swap_create\\sc_limb_swap_create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -212,6 +212,14 @@
                 "id": "87721831-2903-445c-9d54-1ddef6000fcb",
                 "resourcePath": "sprites\\spr_body_select\\spr_body_select.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f4f9d92-7ba6-458c-bfd1-334818630eab",
+            "Value": {
+                "id": "17b3d4c0-ad4c-4be1-9df4-352016400711",
+                "resourcePath": "scripts\\sc_limb_swap_select\\sc_limb_swap_select.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "f6007492-0b53-4c3e-bbf2-f739488a3e63",
+            "Value": {
+                "id": "2a77c1f0-c25a-4afc-99e0-0651239f7cfb",
+                "resourcePath": "scripts\\sc_player_movement\\sc_player_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f937565f-49cc-42e8-860f-c6c8228cb20c",
             "Value": {
                 "id": "de4b47e0-a267-45d1-8203-16e4e85c4f75",
@@ -352,11 +368,13 @@
         }
     ],
     "script_order": [
+        "f6007492-0b53-4c3e-bbf2-f739488a3e63",
         "c347b38f-6189-4301-9b05-5b63b961f23b",
         "e131a17f-0c5e-4e74-912c-a18e41e1d0f6",
         "0b069c08-3182-4b71-b592-cf610ec744a0",
         "7bdb3099-e551-498c-9f8e-77254f3923b4",
-        "89c6d314-2bb6-4c29-adc7-0b7346045717"
+        "89c6d314-2bb6-4c29-adc7-0b7346045717",
+        "9f4f9d92-7ba6-458c-bfd1-334818630eab"
     ],
     "tutorial": ""
 }

@@ -1,8 +1,8 @@
 {
-    "id": "89c6d314-2bb6-4c29-adc7-0b7346045717",
+    "id": "f6007492-0b53-4c3e-bbf2-f739488a3e63",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_limb_swap",
+    "name": "sc_player_movement",
     "IsCompatibility": false,
     "IsDnD": false
 }

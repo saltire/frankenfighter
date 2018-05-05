@@ -1,3 +1,3 @@
 if (other.parent == noone) {
-  sc_limb_swap();
+  sc_limb_swap_create();
 }

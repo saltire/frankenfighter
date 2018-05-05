@@ -4,7 +4,7 @@
 hspdMax = 3;
 vspdMax = 3;
 
-swap = noone;
+limbSwap = noone;
 
 // Set starter limbs
 rightArmX = -10;
