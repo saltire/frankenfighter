@@ -19,13 +19,13 @@ hittingEnemy = false;
 
 // STATS SETUP for inheritence
 slotType = "leg";
-baseAttackValue = 0;
+baseAttackValue = 4;
 attackCooldown = 20;
 knockbackStrength = 3 * 3;
 criticalChance = 1/20;
 durabilityLoss = 2;
 durabilityMax = 80;
 durabilityCurrent = durabilityMax;
-resistence = 1 - (1/8);
+resistance = 1 - (1/8);
 slotMatchBonusSpeed = 1;
 slotMatchBonusAttack = 2;

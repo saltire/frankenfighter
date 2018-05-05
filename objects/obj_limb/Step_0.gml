@@ -19,6 +19,7 @@ if (tossSpeedX != 0) {
 
 // Limb loss when no durability remaining
 if (host && durabilityCurrent <= 0) {
+	durabilityCurrent = 0;
 	sc_limb_eject(self);
 }
 
