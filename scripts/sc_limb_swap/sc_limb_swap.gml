@@ -27,6 +27,7 @@ if (bodyMap.slot != noone) {
   //oldLimb.y = newLimb.y;
   oldLimb.image_angle = 90;
   //oldLimb.image_xscale = 1;
+  oldLimb.sprite_index = oldLimb.idleSprite;
   oldLimb.depth = -oldLimb.y;
   oldLimb.layer = layer_get_id("Objects");
   oldLimb.tossSpeedX = -10 * image_xscale;

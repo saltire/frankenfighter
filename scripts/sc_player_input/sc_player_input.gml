@@ -25,3 +25,8 @@ lPunch = keyboard_check(keyLPunch) || gamepad_button_check(joy, j_lPunch);
 rPunch = keyboard_check(keyRPunch) || gamepad_button_check(joy, j_rPunch);
 lKick = keyboard_check(keyLKick) || gamepad_button_check(joy, j_lKick);
 rKick = keyboard_check(keyRKick) || gamepad_button_check(joy, j_rKick);
+
+lPunchPressed = keyboard_check_pressed(keyLPunch) || gamepad_button_check_pressed(joy, j_lPunch);
+rPunchPressed = keyboard_check_pressed(keyRPunch) || gamepad_button_check_pressed(joy, j_rPunch);
+lKickPressed = keyboard_check_pressed(keyLKick) || gamepad_button_check_pressed(joy, j_lKick);
+rKickPressed = keyboard_check_pressed(keyRKick) || gamepad_button_check_pressed(joy, j_rKick);
