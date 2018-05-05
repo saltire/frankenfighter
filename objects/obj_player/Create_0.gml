@@ -9,14 +9,19 @@ limbSwap = noone;
 attackCooldown = 20;
 attackCooldownRemaining = 0;
 
-frontArmX = 58 - 80;
-frontArmY = 54 - 200;
-backArmX = 90 - 80;
-backArmY = 52 - 200;
-frontLegX = 66 - 80;
-frontLegY = 100 - 200;
-backLegX = 85 - 80;
-backLegY = 98 - 200;
+debug(sprite_xoffset, sprite_yoffset);
+
+var ox = abs(sprite_xoffset);
+var oy = sprite_yoffset;
+
+frontArmX = 58 - ox;
+frontArmY = 54 - oy;
+backArmX = 90 - ox;
+backArmY = 52 - oy;
+frontLegX = 66 - ox;
+frontLegY = 100 - oy;
+backLegX = 85 - ox;
+backLegY = 98 - oy;
 
 // Create map
 bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
