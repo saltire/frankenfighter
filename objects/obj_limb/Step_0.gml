@@ -16,3 +16,8 @@ if (tossSpeedX != 0) {
     tossSpeedY = 0;
   }
 }
+
+// Limb loss when no durability remaining
+if (parent && durabilityCurrent <= 0) {
+	sc_limb_eject(self);
+}

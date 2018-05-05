@@ -19,16 +19,16 @@ else {
   sc_player_movement();
   
   if (attackCooldownRemaining <= 0) {
-    if (lPunch) {
+    if (lPunchPressed) {
       sc_limb_attack(leftArm);
     }
-    else if (rPunch) {
+    else if (rPunchPressed) {
       sc_limb_attack(rightArm);
     }
-    else if (lKick) {
+    else if (lKickPressed) {
       sc_limb_attack(leftLeg);
     }
-    else if (rKick) {
+    else if (rKickPressed) {
       sc_limb_attack(rightLeg);
     }
   }

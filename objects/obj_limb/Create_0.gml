@@ -7,7 +7,24 @@ attackSprite = noone;
 attackTime = 10;
 attackTimeRemaining = 0;
 
+attackCooldown = 20;
+
 tossSpeedX = 0;
 tossSpeedY = 0;
 tossTargetY = 0;
 grav = 1;
+
+hittingEnemy = false;
+
+// STATS SETUP for inheritence
+slotType = "leg";
+baseAttackValue = 0;
+attackCooldown = 20;
+knockbackStrength = 3 * 3;
+criticalChance = 1/20;
+durabilityLoss = 2;
+durabilityMax = 80;
+durabilityCurrent = durabilityMax;
+resistence = 1 - (1/8);
+slotMatchBonusSpeed = 1;
+slotMatchBonusAttack = 2;

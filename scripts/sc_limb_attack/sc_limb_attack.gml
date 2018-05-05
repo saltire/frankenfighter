@@ -2,7 +2,7 @@
 
 var limb = argument0;
 
-attackCooldownRemaining = attackCooldown;
+attackCooldownRemaining = limb.attackCooldown;
 
 with (limb) {
   sprite_index = attackSprite;

@@ -6,7 +6,7 @@ vspdMax = 3;
 
 limbSwap = noone;
 
-attackCooldown = 20;
+//attackCooldown = 20;
 attackCooldownRemaining = 0;
 
 debug(sprite_xoffset, sprite_yoffset);

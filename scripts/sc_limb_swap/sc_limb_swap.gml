@@ -21,7 +21,9 @@ if (bodyMap.slot != noone) {
   
   bodyMap.slot = noone;
   bodyMap.limb = noone;
-    
+  
+  //sc_limb_eject(oldLimb);
+  
   oldLimb.parent = noone;
   //oldLimb.x = newLimb.x;
   //oldLimb.y = newLimb.y;
