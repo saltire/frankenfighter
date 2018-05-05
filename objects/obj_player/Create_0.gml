@@ -26,17 +26,21 @@ bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
 
 // Set starter limbs
 rightArm = instance_create_layer(x, y, layer, rightArmObj);
-rightArm.parent = self;
+rightArm.host = self;
+rightArm.slot = 0;
 bodyMap.filledSlots[0] = true;
 
 leftArm = instance_create_layer(x, y, layer, leftArmObj);
-leftArm.parent = self;
+leftArm.host = self;
+leftArm.slot = 1;
 bodyMap.filledSlots[1] = true;
 
 rightLeg = instance_create_layer(x, y, layer, rightLegObj);
-rightLeg.parent = self;
+rightLeg.host = self;
+rightLeg.slot = 2;
 bodyMap.filledSlots[2] = true;
 
 leftLeg = instance_create_layer(x, y, layer, leftLegObj);
-leftLeg.parent = self;
+leftLeg.host = self;
+leftLeg.slot = 3;
 bodyMap.filledSlots[3] = true;

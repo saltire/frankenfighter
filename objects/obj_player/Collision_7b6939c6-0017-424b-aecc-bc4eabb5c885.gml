@@ -1,3 +1,3 @@
-if (swapPressed && other.parent == noone) {
+if (swapPressed && other.host == noone) {
   bodyMap.limb = other;
 }

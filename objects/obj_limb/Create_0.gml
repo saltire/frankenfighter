@@ -1,4 +1,5 @@
-parent = noone;
+host = noone;
+slot = noone;
 image_speed = 0;
 
 idleSprite = sprite_index;

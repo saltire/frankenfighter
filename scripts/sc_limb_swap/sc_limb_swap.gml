@@ -19,13 +19,14 @@ if (bodyMap.slot != noone) {
     leftLeg = newLimb;
   }
   
-  bodyMap.slot = noone;
-  bodyMap.limb = noone;
-  
-  sc_limb_eject(oldLimb);
+   sc_limb_eject(oldLimb);
     
-  newLimb.parent = self;
+  newLimb.host = self;
+  newLimb.slot = bodyMap.slot;
   newLimb.image_angle = 0;
   newLimb.sprite_index = newLimb.idleSprite;
   newLimb.layer = layer_get_id("Characters");
+  
+  bodyMap.slot = noone;
+  bodyMap.limb = noone;
 }
