@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "0ad575cb-ced7-48cc-b004-411469703491",
+            "Value": {
+                "id": "57bc0b07-dfec-40f1-9a08-b6d124b528a4",
+                "resourcePath": "views\\0ad575cb-ced7-48cc-b004-411469703491.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0b069c08-3182-4b71-b592-cf610ec744a0",
             "Value": {
                 "id": "7bfb43b4-ff89-4ef2-a388-68fda07c07e9",
                 "resourcePath": "scripts\\sc_player_attack\\sc_player_attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0e8ce401-7fb1-4815-9291-96431c03b62a",
+            "Value": {
+                "id": "e4f43eb2-ef44-43e6-b8c8-1a0a817c0ad3",
+                "resourcePath": "sprites\\sp_arm_stick_green_attack\\sp_arm_stick_green_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -79,10 +95,34 @@
             }
         },
         {
+            "Key": "1787d09f-3fef-4eaa-8f78-138a969bca4f",
+            "Value": {
+                "id": "5740328d-2acd-4e89-9e26-03d0a614ef3e",
+                "resourcePath": "sprites\\sp_leg_stick_orange_attack\\sp_leg_stick_orange_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "18523c78-bd83-40bc-bafc-6e8e5b7d21d0",
             "Value": {
                 "id": "a46c4974-8b55-41be-9065-f51a379f1059",
                 "resourcePath": "views\\18523c78-bd83-40bc-bafc-6e8e5b7d21d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1960e18a-5c8f-40fa-90c6-b42e907032a9",
+            "Value": {
+                "id": "e2994601-d97e-4e44-a0c6-9c03f7fa57d0",
+                "resourcePath": "views\\1960e18a-5c8f-40fa-90c6-b42e907032a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc",
+            "Value": {
+                "id": "57d93128-59ad-40df-a305-d8a728686bda",
+                "resourcePath": "views\\1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -92,6 +132,14 @@
                 "id": "d5ecbfcf-5829-42ba-a742-1743f63cae62",
                 "resourcePath": "views\\242e61e8-9ba8-4fc6-877d-f67ed9861f56.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c8a8d14-a316-4153-a589-5aa153a8933e",
+            "Value": {
+                "id": "f8327e8b-55d6-499b-b630-98f04ad782bf",
+                "resourcePath": "sprites\\sp_arm_stick_yellow_attack\\sp_arm_stick_yellow_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -106,7 +154,7 @@
             "Key": "38b928ea-788c-4810-a216-b74c29480111",
             "Value": {
                 "id": "8e2921c4-114f-4098-b336-1dbd3bc6c61f",
-                "resourcePath": "objects\\obj_arm_stick_orange\\obj_arm_stick_orange.yy",
+                "resourcePath": "objects\\obj_leg_stick_orange\\obj_leg_stick_orange.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -119,6 +167,14 @@
             }
         },
         {
+            "Key": "409c728e-dff4-4167-8eba-e4dc3ede4c80",
+            "Value": {
+                "id": "5e914809-6071-43da-8261-c22baa1f1eb2",
+                "resourcePath": "views\\409c728e-dff4-4167-8eba-e4dc3ede4c80.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4b1bcfb4-a167-4644-98ef-af128ca26a8e",
             "Value": {
                 "id": "7db93319-62dd-4517-a340-9d77c500ecc9",
@@ -127,11 +183,27 @@
             }
         },
         {
+            "Key": "4b6d0ecd-23f2-430e-b513-b096d6805452",
+            "Value": {
+                "id": "3ddc6883-54b1-4115-b74b-879c47288237",
+                "resourcePath": "scripts\\sc_limb_attack\\sc_limb_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b98fb37-a8d6-4d77-9da9-254e6de00a4c",
             "Value": {
                 "id": "f8384252-c897-42d2-b597-b243640bc433",
                 "resourcePath": "rooms\\rm_test_movement\\rm_test_movement.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5bb0dccd-6551-437b-9612-a2c62cfeb391",
+            "Value": {
+                "id": "7cf377f7-c93b-4320-95f2-d4d88e294869",
+                "resourcePath": "views\\5bb0dccd-6551-437b-9612-a2c62cfeb391.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -271,6 +343,14 @@
             }
         },
         {
+            "Key": "ba6dd33a-0475-4836-a718-eaf7fe539508",
+            "Value": {
+                "id": "13d5f54d-4f99-4e9a-99af-62992e4f11a9",
+                "resourcePath": "sprites\\sp_leg_stick_red_attack\\sp_leg_stick_red_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be764ca6-30df-4201-8827-042d4860ace3",
             "Value": {
                 "id": "929c1e10-a341-4b11-b802-ef176cd34ee9",
@@ -351,6 +431,14 @@
             }
         },
         {
+            "Key": "df672d8d-e391-48e3-aa76-43a41d31fdd1",
+            "Value": {
+                "id": "74293a3b-7959-41da-941f-219349516220",
+                "resourcePath": "sprites\\sp_leg_stick_blue_attack\\sp_leg_stick_blue_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e131a17f-0c5e-4e74-912c-a18e41e1d0f6",
             "Value": {
                 "id": "5b482585-744f-4686-8c8f-b52979fe3eb7",
@@ -406,7 +494,8 @@
         "0b069c08-3182-4b71-b592-cf610ec744a0",
         "7bdb3099-e551-498c-9f8e-77254f3923b4",
         "89c6d314-2bb6-4c29-adc7-0b7346045717",
-        "9f4f9d92-7ba6-458c-bfd1-334818630eab"
+        "9f4f9d92-7ba6-458c-bfd1-334818630eab",
+        "4b6d0ecd-23f2-430e-b513-b096d6805452"
     ],
     "tutorial": ""
 }

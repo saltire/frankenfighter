@@ -33,3 +33,21 @@ else {
   sc_limb_place(rightLeg, backLegX, backLegY, 1);
   sc_limb_place(rightArm, backArmX, backArmY, 2);
 }
+
+if (attackCooldownRemaining > 0) {
+  attackCooldownRemaining -= 1;
+}
+else {
+  if (lPunch) {
+    sc_limb_attack(leftArm);
+  }
+  else if (rPunch) {
+    sc_limb_attack(rightArm);
+  }
+  else if (lKick) {
+    sc_limb_attack(leftLeg);
+  }
+  else if (rKick) {
+    sc_limb_attack(rightLeg);
+  }
+}

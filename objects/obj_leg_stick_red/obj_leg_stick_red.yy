@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_leg_stick_red",
     "eventList": [
-        
+        {
+            "id": "d71c77d2-b9b1-4c49-b8de-c689b243d02c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0833f93c-e63f-40c8-a70c-3c363ca6c5b0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

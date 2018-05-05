@@ -6,6 +6,9 @@ vspdMax = 3;
 
 limbSwap = noone;
 
+attackCooldown = 20;
+attackCooldownRemaining = 0;
+
 leftArmObj = obj_arm_stick_green;
 rightArmObj = obj_arm_stick_yellow;
 leftLegObj = obj_leg_stick_red;

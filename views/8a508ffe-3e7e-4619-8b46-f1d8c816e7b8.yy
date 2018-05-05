@@ -4,15 +4,14 @@
     "mvc": "1.1",
     "name": "8a508ffe-3e7e-4619-8b46-f1d8c816e7b8",
     "children": [
-        "37038f34-8760-47c2-932b-006342f14ef8",
-        "01d95a39-3137-4037-8075-1c1032cab09f",
-        "b06c3104-a56e-4ba4-a195-d3e28c43f80f",
-        "b2dfdb7d-5b1f-407e-bae1-8f990b0f284c",
-        "8a94200c-f367-44c5-9881-3ef73b1585a4",
-        "d0b28c26-1b46-4159-a9d6-494cb35777a2"
+        "5bb0dccd-6551-437b-9612-a2c62cfeb391",
+        "409c728e-dff4-4167-8eba-e4dc3ede4c80",
+        "1960e18a-5c8f-40fa-90c6-b42e907032a9",
+        "1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc",
+        "0ad575cb-ced7-48cc-b004-411469703491"
     ],
     "filterType": "GMSprite",
-    "folderName": "sticks",
+    "folderName": "limbs",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

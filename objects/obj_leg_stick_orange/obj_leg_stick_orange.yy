@@ -2,9 +2,18 @@
     "id": "38b928ea-788c-4810-a216-b74c29480111",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_arm_stick_orange",
+    "name": "obj_leg_stick_orange",
     "eventList": [
-        
+        {
+            "id": "03c3c9a9-e82d-489e-a16e-dd307a5464ab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "38b928ea-788c-4810-a216-b74c29480111"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
