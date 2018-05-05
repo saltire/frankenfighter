@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "38b928ea-788c-4810-a216-b74c29480111",
+            "Value": {
+                "id": "8e2921c4-114f-4098-b336-1dbd3bc6c61f",
+                "resourcePath": "objects\\obj_arm_stick_orange\\obj_arm_stick_orange.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40118745-7f27-41ae-a75e-0d751ff26507",
             "Value": {
                 "id": "18ab1a14-a666-49f9-8be1-c24f99205263",
@@ -127,22 +135,6 @@
             }
         },
         {
-            "Key": "4c6488b1-6235-4910-9e47-e888c47463c8",
-            "Value": {
-                "id": "2a92f20d-b444-435e-9781-aed2ea54b134",
-                "resourcePath": "sprites\\sp_test_character\\sp_test_character.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "56944c71-0ef0-41a9-ae22-fa6e07eb763f",
-            "Value": {
-                "id": "69b0ffdc-7d18-466b-9571-cab4d560e5a5",
-                "resourcePath": "rooms\\uitest\\uitest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "6340e459-8bcc-4912-9f8f-e4427cb009b6",
             "Value": {
                 "id": "c527c504-fc8c-4572-ac2f-5cdc879d3584",
@@ -159,14 +151,6 @@
             }
         },
         {
-            "Key": "7242be63-25e2-4980-a227-66abf07232db",
-            "Value": {
-                "id": "54db6e26-fd45-4bb6-a6d8-d626dde4353e",
-                "resourcePath": "sprites\\sp_leg_01\\sp_leg_01.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7a0177a1-6467-4218-a193-221364c24e41",
             "Value": {
                 "id": "3a8983a5-8349-4137-a52c-8334f91fc4d9",
@@ -178,7 +162,7 @@
             "Key": "7bdb3099-e551-498c-9f8e-77254f3923b4",
             "Value": {
                 "id": "86f2295e-0229-44a8-b250-a757a7775501",
-                "resourcePath": "scripts\\sc_limb_handling\\sc_limb_handling.yy",
+                "resourcePath": "scripts\\sc_limb_place\\sc_limb_place.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -202,7 +186,7 @@
             "Key": "89c6d314-2bb6-4c29-adc7-0b7346045717",
             "Value": {
                 "id": "90eb9510-d2b2-4781-a7d6-f4a442cfd81a",
-                "resourcePath": "scripts\\sc_limb_swap_create\\sc_limb_swap_create.yy",
+                "resourcePath": "scripts\\sc_limb_swap\\sc_limb_swap.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -271,6 +255,14 @@
             }
         },
         {
+            "Key": "b06c3104-a56e-4ba4-a195-d3e28c43f80f",
+            "Value": {
+                "id": "2a13ec0f-6f4a-4c1a-8e3c-3aed6936ac8c",
+                "resourcePath": "sprites\\sp_leg_stick_orange\\sp_leg_stick_orange.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2dfdb7d-5b1f-407e-bae1-8f990b0f284c",
             "Value": {
                 "id": "310cae38-3cbf-4dee-810e-edf64e0812fa",
@@ -292,14 +284,6 @@
                 "id": "819b1e80-1bf8-409a-93e7-c3f2423e4ee9",
                 "resourcePath": "scripts\\sc_player_input\\sc_player_input.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c57226dd-adb1-463d-a449-4a4bf5fac5b9",
-            "Value": {
-                "id": "fbb54ece-59ef-4dde-9c93-b3ba684c24b7",
-                "resourcePath": "sprites\\sp_arm_01\\sp_arm_01.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,14 +372,6 @@
                 "id": "438245f9-033c-4106-9262-2254ad218f1c",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f5e4f8c9-b8c4-4d55-8145-d0dc9163e105",
-            "Value": {
-                "id": "a489f150-3543-4fc9-a47e-85ac1eaab952",
-                "resourcePath": "sprites\\sp_arm_02\\sp_arm_02.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
