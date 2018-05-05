@@ -1,5 +1,5 @@
 // Collision check for attacking
-if (attackTimeRemaining > 0 && !hittingEnemy) {
+if (attackTimeRemaining > 0 && !hittingEnemy) {	
 	var collisionInstance = collision_rectangle(x + (colRectX1 * image_xscale), y + colRectY1, x + (colRectX2 * image_xscale), y + colRectY2, obj_limb, false, true);
 	if (collisionInstance != noone && collisionInstance.host != noone) {
 		hittingEnemy = true;
@@ -8,7 +8,7 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 		} else {
 			with (collisionInstance) sc_limb_eject(self);
 		}
-	}
+	}	
 }
 
 if (attackTimeRemaining <= 0) hittingEnemy = false;

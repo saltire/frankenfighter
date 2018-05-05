@@ -8,3 +8,6 @@ with (limb) {
   sprite_index = attackSprite;
   attackTimeRemaining = attackTime;
 }
+
+// Lose durability whenever attacking
+limb.durabilityCurrent -= limb.durabilityLoss;

@@ -1,5 +1,9 @@
 ///@param (limb)
 
+if (durabilityCurrent <= 0) {
+	durabilityCurrent = 0;
+}
+
 var limb = argument0;
 
 if (limb != noone) {
