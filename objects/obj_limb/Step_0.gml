@@ -21,3 +21,7 @@ if (tossSpeedX != 0) {
 if (parent && durabilityCurrent <= 0) {
 	sc_limb_eject(self);
 }
+
+
+// Attack collision function call
+sc_attack();
