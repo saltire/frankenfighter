@@ -1,5 +1,3 @@
-///@description INIT
-
 // Set speeds
 hspdMax = 3;
 vspdMax = 3;

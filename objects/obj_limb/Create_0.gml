@@ -20,7 +20,7 @@ hittingEnemy = false;
 // STATS SETUP for inheritence
 slotType = "leg";
 baseAttackValue = 4;
-attackCooldown = 20;
+attackCooldown = 16;
 knockbackStrength = 3 * 3;
 criticalChance = 1/20;
 durabilityLoss = 2;
