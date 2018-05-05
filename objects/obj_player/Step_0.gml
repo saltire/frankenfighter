@@ -1,7 +1,7 @@
 /// @description 
 
 // Initialization
-sc_player_input(0, vk_right, vk_left, vk_down, vk_up, vk_lshift);
+sc_player_input();
 
 if (limbSwap != noone) {
   sc_limb_swap_select();

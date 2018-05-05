@@ -2,7 +2,7 @@
     "id": "d0b28c26-1b46-4159-a9d6-494cb35777a2",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_stickbody",
+    "name": "sp_player1",
     "For3D": false,
     "HTile": false,
     "VTile": false,

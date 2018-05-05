@@ -1,17 +1,4 @@
-///@param joy,keyR,keyL,keyD,keyU,keySwap
-
 var deadzone = 0.2;
-
-var joy = argument0;
-var keyR = argument1;
-var keyL = argument2;
-var keyD = argument3;
-var keyU = argument4;
-var keySwap = argument5;
-var keyLPunch = ord("q");
-var keyRPunch = ord("w");
-var keyLKick = ord("a");
-var keyRKick = ord("s");
 
 var j_moveX = gp_axislh;
 var j_moveY = gp_axislv;
