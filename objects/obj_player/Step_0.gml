@@ -15,9 +15,6 @@ else {
   sc_player_movement();
 }
 
-// Depth increase as y decreases
-depth = -y;
-
 // Limb Handling
 if (image_xscale == 1) {
   sc_limb_place(rightArm, frontArmX, frontArmY, -2);

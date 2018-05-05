@@ -26,3 +26,6 @@ y += vspd;
 if (hspd != 0) {
   image_xscale = sign(hspd);
 }
+
+// Depth increase as y decreases
+depth = -y;

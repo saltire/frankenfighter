@@ -26,6 +26,8 @@ if (bodyMap.slot != noone) {
   oldLimb.x = newLimb.x;
   oldLimb.y = newLimb.y;
   oldLimb.image_angle = 90;
+  oldLimb.image_xscale = 1;
+  oldLimb.depth = -oldLimb.y;
   oldLimb.layer = layer_get_id("Objects");
     
   newLimb.parent = self;
