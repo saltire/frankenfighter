@@ -19,11 +19,18 @@ if (bodyMap.slot != noone) {
     leftLeg = newLimb;
   }
   
-   sc_limb_eject(oldLimb);
+  oldLimb.image_alpha = 1;
+  if (previewLimb != noone) {
+    instance_destroy(previewLimb);
+    previewLimb = noone;
+  }
+  
+  sc_limb_eject(oldLimb);
     
   newLimb.host = self;
   newLimb.slot = bodyMap.slot;
   newLimb.image_angle = 0;
+  newLimb.image_alpha = 1;
   newLimb.sprite_index = newLimb.idleSprite;
   newLimb.layer = layer_get_id("Characters");
   

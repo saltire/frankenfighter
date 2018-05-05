@@ -1,42 +1,69 @@
 //bodyMap.slot = noone;
 
+if (rPunchPressed || lPunchPressed || rKickPressed || lKickPressed) {
+  bodyMap.limb.sprite_index = bodyMap.limb.idleSprite;
+  bodyMap.limb.image_alpha = 1;
+  
+  if (rightArm != noone) rightArm.image_alpha = 1;
+  if (leftArm != noone) leftArm.image_alpha = 1;
+  if (rightLeg != noone) rightLeg.image_alpha = 1;
+  if (leftLeg != noone) leftLeg.image_alpha = 1;
+  
+  if (previewLimb != noone) {
+    instance_destroy(previewLimb);
+  }
+  previewLimb = instance_create_layer(x, y, "Characters", bodyMap.limb.object_index);
+}
+
 //if (hInput < 0 && vInput < 0) {
 if (rPunchPressed) {
 	bodyMap.slot = 0;
-  bodyMap.limb.sprite_index = rightArm.idleSprite;
+  previewLimb.slot = 0;
   
-  rightArm.sprite_index = bodyMap.limb.idleSprite;
-  leftArm.sprite_index = leftArm.idleSprite;
-  rightLeg.sprite_index = rightLeg.idleSprite;
-  leftLeg.sprite_index = leftLeg.idleSprite;
+  if (rightArm != noone) {
+    bodyMap.limb.sprite_index = rightArm.idleSprite;
+    rightArm.image_alpha = 0;
+  }
+  else {
+    bodyMap.limb.image_alpha = 0;
+  }
 }
 //else if (hInput > 0 && vInput < 0) {
 else if (lPunchPressed) {
 	bodyMap.slot = 1;
-  bodyMap.limb.sprite_index = leftArm.idleSprite;
+  previewLimb.slot = 1;
   
-  rightArm.sprite_index = rightArm.idleSprite;
-  leftArm.sprite_index = bodyMap.limb.idleSprite;
-  rightLeg.sprite_index = rightLeg.idleSprite;
-  leftLeg.sprite_index = leftLeg.idleSprite;
+  if (leftArm != noone) {
+    bodyMap.limb.sprite_index = leftArm.idleSprite;
+    leftArm.image_alpha = 0;
+  }
+  else {
+    bodyMap.limb.image_alpha = 0;
+  }
 }
 //else if (hInput < 0 && vInput > 0) {
 else if (rKickPressed) {
 	bodyMap.slot = 2;
-  bodyMap.limb.sprite_index = rightLeg.idleSprite;
+  previewLimb.slot = 2;
   
-  rightArm.sprite_index = rightArm.idleSprite;
-  leftArm.sprite_index = leftArm.idleSprite;
-  rightLeg.sprite_index = bodyMap.limb.idleSprite;
-  leftLeg.sprite_index = leftLeg.idleSprite;
+  if (rightLeg != noone) {
+    bodyMap.limb.sprite_index = rightLeg.idleSprite;
+    rightLeg.image_alpha = 0;
+  }
+  else {
+    bodyMap.limb.image_alpha = 0;
+  }
 }
 //else if (hInput > 0 && vInput > 0) {
 else if (lKickPressed) {
 	bodyMap.slot = 3;
-  bodyMap.limb.sprite_index = leftLeg.idleSprite;
+  previewLimb.slot = 3;
   
-  rightArm.sprite_index = rightArm.idleSprite;
-  leftArm.sprite_index = leftArm.idleSprite;
-  rightLeg.sprite_index = rightLeg.idleSprite;
-  leftLeg.sprite_index = bodyMap.limb.idleSprite;
+  if (leftLeg != noone) {
+    bodyMap.limb.sprite_index = leftLeg.idleSprite;
+    leftLeg.image_alpha = 0;
+  }
+  else {
+    bodyMap.limb.image_alpha = 0;
+  }
 }

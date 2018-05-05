@@ -2,7 +2,6 @@
 hspdMax = 3;
 vspdMax = 3;
 
-limbSwap = noone;
 
 //attackCooldown = 20;
 attackCooldownRemaining = 0;
@@ -21,6 +20,8 @@ backLegY = 98 - oy;
 
 // Create map
 bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
+limbSwap = noone;
+previewLimb = noone;
 
 // Set starter limbs
 rightArm = instance_create_layer(x, y, layer, rightArmObj);
