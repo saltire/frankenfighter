@@ -9,8 +9,6 @@ limbSwap = noone;
 //attackCooldown = 20;
 attackCooldownRemaining = 0;
 
-debug(sprite_xoffset, sprite_yoffset);
-
 var ox = abs(sprite_xoffset);
 var oy = sprite_yoffset;
 

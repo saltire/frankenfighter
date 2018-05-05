@@ -22,21 +22,10 @@ if (bodyMap.slot != noone) {
   bodyMap.slot = noone;
   bodyMap.limb = noone;
   
-  //sc_limb_eject(oldLimb);
-  
-  oldLimb.parent = noone;
-  //oldLimb.x = newLimb.x;
-  //oldLimb.y = newLimb.y;
-  oldLimb.image_angle = 90;
-  //oldLimb.image_xscale = 1;
-  oldLimb.sprite_index = oldLimb.idleSprite;
-  oldLimb.depth = -oldLimb.y;
-  oldLimb.layer = layer_get_id("Objects");
-  oldLimb.tossSpeedX = -10 * image_xscale;
-  oldLimb.tossSpeedY = -10;
-  oldLimb.tossTargetY = y;
+  sc_limb_eject(oldLimb);
     
   newLimb.parent = self;
   newLimb.image_angle = 0;
+  newLimb.sprite_index = newLimb.idleSprite;
   newLimb.layer = layer_get_id("Characters");
 }
