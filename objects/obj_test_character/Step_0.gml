@@ -15,6 +15,7 @@ if (place_meeting(x + hspd, y, obj_wall)) {
 	hspd = 0;
 }
 
+// Move x position by horizontal speed
 x += hspd;
 
 // Collision checks vertical
@@ -25,11 +26,27 @@ if (place_meeting(x, y + vspd, obj_wall)) {
 	vspd = 0;
 }
 
+// Move y position by vertical speed
 y += vspd;
 
+// Image flip based on left or right input
+if (hspd != 0) {
+	image_xscale = sign(hspd);
+}
 
+// Depth increase as y decreases
 depth = -y;
 
+// Limb Handling
 if (instance_exists(rightArm)) {
-	sc_limb_handling(rightArm, rightArmX, rightArmY, -1);
+	sc_limb_handling(rightArm, rightArmX, rightArmY, -2);
+}
+if (instance_exists(leftArm)) {
+	sc_limb_handling(leftArm, leftArmX, leftArmY, 2);
+}
+if (instance_exists(rightLeg)) {
+	sc_limb_handling(rightLeg, rightLegX, rightLegY, -1);
+}
+if (instance_exists(leftLeg)) {
+	sc_limb_handling(leftLeg, leftLegX, leftLegY, 1);
 }
