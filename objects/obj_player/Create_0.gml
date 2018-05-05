@@ -9,14 +9,14 @@ limbSwap = noone;
 attackCooldown = 20;
 attackCooldownRemaining = 0;
 
-frontArmX = 0;
-frontArmY = 0;
-backArmX = 35;
-backArmY = -3;
-frontLegX = 0;
-frontLegY = 0;
-backLegX = 20;
-backLegY = -3;
+frontArmX = 58 - 80;
+frontArmY = 54 - 200;
+backArmX = 90 - 80;
+backArmY = 52 - 200;
+frontLegX = 66 - 80;
+frontLegY = 100 - 200;
+backLegX = 85 - 80;
+backLegY = 98 - 200;
 
 // Create map
 bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
