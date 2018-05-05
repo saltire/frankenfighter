@@ -1,8 +1,8 @@
 {
-    "id": "1b421481-059f-4116-86b5-db5ddade9f65",
+    "id": "0833f93c-e63f-40c8-a70c-3c363ca6c5b0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_arm_01",
+    "name": "obj_leg_stick_red",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c57226dd-adb1-463d-a449-4a4bf5fac5b9",
+    "spriteId": "37038f34-8760-47c2-932b-006342f14ef8",
     "visible": true
 }
