@@ -4,6 +4,9 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 	var collisionInstance = collision_rectangle(x + (colRectX1 * image_xscale), y + colRectY1, x + (colRectX2 * image_xscale), y + colRectY2, obj_limb, true, true);
 	if (collisionInstance != noone && collisionInstance.host != noone && collisionInstance.host != host) {
 		hittingEnemy = true;
+		
+		sc_audio_hit_sound();
+		
 		if (random(1) > criticalChance) {
 			collisionInstance.durabilityCurrent -= baseAttackValue /*+ slotMatchBonusAttack*/;
 		} else {

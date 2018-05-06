@@ -22,3 +22,6 @@ speedBonus = 1;
 //resistance = 1 - (1/8);
 //slotMatchBonusSpeed = 0;
 //slotMatchBonusAttack = 0;
+
+// Audio Array
+hitsounds[0] = sfx_bone_break;

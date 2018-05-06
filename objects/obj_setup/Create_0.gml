@@ -1,3 +1,5 @@
+randomize();
+
 var controllers = [];
 
 var slots = gamepad_get_device_count();
@@ -80,4 +82,4 @@ headCount = array_length_1d(randomHeads);
 enemies = [obj_tentacle, obj_robot, obj_frank, obj_gingerbread];
 enemyCount = array_length_1d(enemies);
 
-randomize();
+sc_music_randomizer();
