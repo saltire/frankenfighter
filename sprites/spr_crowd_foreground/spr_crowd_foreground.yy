@@ -2,7 +2,7 @@
     "id": "0fc8dfcc-0913-4009-bf9f-dcee3fb1d6fa",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "crowd_foreground",
+    "name": "spr_crowd_foreground",
     "For3D": false,
     "HTile": false,
     "VTile": false,

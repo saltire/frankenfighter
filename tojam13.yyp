@@ -114,7 +114,7 @@
             "Key": "0fc8dfcc-0913-4009-bf9f-dcee3fb1d6fa",
             "Value": {
                 "id": "eb1f90d2-14b1-4aaa-9709-59fd03f1cb1f",
-                "resourcePath": "sprites\\crowd_foreground\\crowd_foreground.yy",
+                "resourcePath": "sprites\\spr_crowd_foreground\\spr_crowd_foreground.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +274,7 @@
             "Key": "2d85c811-2efa-4b23-aa17-eecdda8efcc4",
             "Value": {
                 "id": "066f56ab-0f5d-46ba-9763-971b2c90152d",
-                "resourcePath": "sprites\\background\\background.yy",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "5e13b8b6-33d7-4383-b4e8-c2686d220501",
+            "Value": {
+                "id": "14584a61-6a6c-44fc-81fb-ea7a1df271a4",
+                "resourcePath": "sprites\\spr_title\\spr_title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f493fcb-8fdb-406d-a3e7-dc719022799d",
             "Value": {
                 "id": "11c77dd4-33af-4e6f-8795-01b738494927",
@@ -667,6 +675,14 @@
             "Value": {
                 "id": "33c47945-f7c0-46a8-aecc-1b722021f20c",
                 "resourcePath": "sprites\\spr_screen_bkgd\\spr_screen_bkgd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cc72d6b-3998-4bdb-97a9-023cc0cfa033",
+            "Value": {
+                "id": "927cc7fa-1bee-40fa-80d1-a7c781bc68e1",
+                "resourcePath": "sprites\\spt_title_bkgd\\spt_title_bkgd.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1050,7 +1066,7 @@
             "Key": "cd86d446-c763-4700-a72b-e59be12d4eb0",
             "Value": {
                 "id": "cb44496d-9830-4bd7-9087-f7e16bdc3c1e",
-                "resourcePath": "sprites\\sp_wall\\sp_wall.yy",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
