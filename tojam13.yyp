@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "56513fc1-7d18-4b79-bb70-3b1bac285f76",
+            "Value": {
+                "id": "5a0f806a-ab94-4d4e-94c7-585c7af7f051",
+                "resourcePath": "sounds\\sfx_crowd\\sfx_crowd.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "56ca490c-9cbc-4d03-9701-a4d36040ffe0",
             "Value": {
                 "id": "51dc0911-b2f2-4b9a-810d-7ad18064e062",

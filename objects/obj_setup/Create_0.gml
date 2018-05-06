@@ -83,3 +83,5 @@ enemies = [obj_tentacle, obj_robot, obj_frank, obj_gingerbread];
 enemyCount = array_length_1d(enemies);
 
 sc_music_randomizer();
+
+audio_play_sound(sfx_crowd, 200, true);
