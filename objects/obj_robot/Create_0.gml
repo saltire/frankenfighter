@@ -23,25 +23,11 @@ rightLegObj = obj_robot_leg;
 headObj = obj_robot_head;
 
 // Set starter limbs
-rightArm = instance_create_layer(x, y, layer, rightArmObj);
-rightArm.host = self;
-rightArm.slot = 0;
-
-leftArm = instance_create_layer(x, y, layer, leftArmObj);
-leftArm.host = self;
-leftArm.slot = 1;
-
-rightLeg = instance_create_layer(x, y, layer, rightLegObj);
-rightLeg.host = self;
-rightLeg.slot = 2;
-
-leftLeg = instance_create_layer(x, y, layer, leftLegObj);
-leftLeg.host = self;
-leftLeg.slot = 3;
-
-head = instance_create_layer(x, y, layer, headObj);
-head.host = self;
-head.slot = 4;
+rightArm = sc_limb_add(rightArmObj, 0);
+leftArm = sc_limb_add(leftArmObj, 1);
+rightLeg = sc_limb_add(rightLegObj, 2);
+leftLeg = sc_limb_add(leftLegObj, 3);
+head = sc_limb_add(headObj, 4);
 
 // Enemy values
 walkSpeed = 1;

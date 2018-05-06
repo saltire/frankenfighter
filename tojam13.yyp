@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04b00ab1-016f-4810-b28e-b3e12c0e47e9",
+            "Value": {
+                "id": "76cce6f0-6b9e-45fc-a9e2-c43be4f260e3",
+                "resourcePath": "sprites\\spr_frank_leginhead\\spr_frank_leginhead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "052fe6e6-2ee9-4d81-8dde-e2f77362352a",
             "Value": {
                 "id": "a5c3a669-6153-46e6-b959-9044befaee49",
@@ -228,6 +236,14 @@
                 "id": "e64731a2-d6d0-4f37-9596-14052f9c72f8",
                 "resourcePath": "sprites\\spr_player_head_cyclops\\spr_player_head_cyclops.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30d4f432-2c99-4388-b58f-cd4092d8e389",
+            "Value": {
+                "id": "db2f65b5-3dea-4914-8804-acd120a81b3c",
+                "resourcePath": "objects\\obj_frank_leginhead\\obj_frank_leginhead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -743,6 +759,14 @@
             }
         },
         {
+            "Key": "be1b0e0e-c29f-4304-abd4-9da296366c0c",
+            "Value": {
+                "id": "f490176b-eb10-4883-920c-57e653c9eb37",
+                "resourcePath": "scripts\\sc_limb_add\\sc_limb_add.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "be764ca6-30df-4201-8827-042d4860ace3",
             "Value": {
                 "id": "929c1e10-a341-4b11-b802-ef176cd34ee9",
@@ -1052,7 +1076,8 @@
         "9f705702-895c-48b2-9074-ec2da4337ba5",
         "432bfdb6-4a78-429d-af1b-6c1ff21eb170",
         "a2901d7f-b2e4-4c81-a87f-07ece1d934ea",
-        "63cab1f4-f4c4-4239-9afa-aa001523c3a6"
+        "63cab1f4-f4c4-4239-9afa-aa001523c3a6",
+        "be1b0e0e-c29f-4304-abd4-9da296366c0c"
     ],
     "tutorial": ""
 }

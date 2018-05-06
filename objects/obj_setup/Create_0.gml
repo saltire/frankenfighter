@@ -48,6 +48,35 @@ spawnYMin = 340;
 spawnYMax = 680;
 spawnChance = 0.004;
 
+randomLimbChance = 0.4;
+randomArms = [
+  obj_gingerbread_arm, 
+  obj_frank_arm, 
+  obj_robot_arm, 
+  obj_tentacle_arm, 
+  obj_tetsuo_arm,
+  obj_tetsuo_arm,
+];
+randomLegs = [
+  obj_gingerbread_leg, 
+  obj_frank_leg, 
+  obj_robot_leg, 
+  obj_tentacle_leg, 
+  obj_goat_leg,
+  obj_goat_leg,
+];
+randomHeads = [
+  obj_gingerbread_head, 
+  obj_frank_head, 
+  obj_robot_head, 
+  obj_player_head_cyclops, 
+  obj_frank_leginhead,
+  obj_frank_leginhead,
+];
+armCount = array_length_1d(randomArms);
+legCount = array_length_1d(randomLegs);
+headCount = array_length_1d(randomHeads);
+
 enemies = [obj_tentacle, obj_robot, obj_frank, obj_gingerbread];
 enemyCount = array_length_1d(enemies);
 

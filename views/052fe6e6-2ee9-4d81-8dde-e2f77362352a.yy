@@ -18,7 +18,8 @@
         "a3c00385-c066-4bfd-bb2f-e92522ebc68c",
         "d5d48042-9608-49ba-9724-2352ac383bdc",
         "c383e663-9987-4a8c-bb4f-b64d43245784",
-        "3aca09d6-53b7-4f77-84d7-45b3013b2127"
+        "3aca09d6-53b7-4f77-84d7-45b3013b2127",
+        "30d4f432-2c99-4388-b58f-cd4092d8e389"
     ],
     "filterType": "GMObject",
     "folderName": "limbs",
