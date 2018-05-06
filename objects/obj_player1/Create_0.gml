@@ -9,9 +9,9 @@ keyRPunch = ord("T");
 keyLKick = ord("H");
 keyRKick = ord("G");
 
-leftArmObj = obj_robot_arm;
-rightArmObj = obj_robot_arm;
-leftLegObj = obj_robot_leg;
+leftArmObj = obj_tentacle_leg;
+rightArmObj = obj_tetsuo_arm;
+leftLegObj = obj_tentacle_leg;
 rightLegObj = obj_robot_leg;
 headObj = obj_player_head_cyclops;
 

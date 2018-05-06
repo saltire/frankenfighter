@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "1c4e3c4c-7c43-4806-a461-8a4f1644581d",
+            "Value": {
+                "id": "1b3335fa-0b81-4fde-937b-2d5e18dd0fe2",
+                "resourcePath": "sprites\\spr_tetsuo_arm_walk\\spr_tetsuo_arm_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc",
             "Value": {
                 "id": "57d93128-59ad-40df-a305-d8a728686bda",
                 "resourcePath": "views\\1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1fadc811-2d69-4a62-871e-7a1202b21100",
+            "Value": {
+                "id": "3f34a8ac-519c-4035-9a9f-ad952e26b8a6",
+                "resourcePath": "objects\\obj_tetsuo_arm\\obj_tetsuo_arm.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -195,6 +211,14 @@
             "Value": {
                 "id": "3fd30c3a-4743-4814-97a9-397c464ed127",
                 "resourcePath": "sprites\\spr_player_body_red\\spr_player_body_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f4335e8-9cf1-44fe-8cef-f14a49d240b9",
+            "Value": {
+                "id": "2f93bd2c-d725-4f19-82ad-7d578de45733",
+                "resourcePath": "sprites\\spr_tentacle_leg_walk\\spr_tentacle_leg_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,6 +359,14 @@
             }
         },
         {
+            "Key": "6c577529-b3f6-45e2-b1f3-0a67e0d0c14a",
+            "Value": {
+                "id": "983dd3b1-62af-40fe-a5db-995682e6dfe1",
+                "resourcePath": "sprites\\spr_tetsuo_arm_attack\\spr_tetsuo_arm_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73193c72-5e1c-4722-97c1-917d8daca26e",
             "Value": {
                 "id": "bde311c1-ebbd-4f8f-86ba-1b337c0975b8",
@@ -423,11 +455,27 @@
             }
         },
         {
+            "Key": "91bcbfc4-0b5f-43b3-9d5f-2e66beaf6ab8",
+            "Value": {
+                "id": "90e8a145-1e8e-48cd-b6e9-edde88ffbe7c",
+                "resourcePath": "objects\\obj_tentacle_leg\\obj_tentacle_leg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "939d69f5-f036-4a4a-8424-c6c9671450cc",
             "Value": {
                 "id": "8dcd15e3-9ea8-4473-a284-1f18972f5354",
                 "resourcePath": "sprites\\spr_player_body_green\\spr_player_body_green.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9459e5f8-2a73-4710-b0ec-4fb3aa2029d6",
+            "Value": {
+                "id": "a94e9ebd-5467-4c07-a13c-cdce3a023ab3",
+                "resourcePath": "views\\9459e5f8-2a73-4710-b0ec-4fb3aa2029d6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -567,6 +615,14 @@
             }
         },
         {
+            "Key": "c10f86e6-2d97-44df-b95b-ba2da6c4768b",
+            "Value": {
+                "id": "e424876e-00e2-44b8-824e-045e4fc92be7",
+                "resourcePath": "views\\c10f86e6-2d97-44df-b95b-ba2da6c4768b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c347b38f-6189-4301-9b05-5b63b961f23b",
             "Value": {
                 "id": "819b1e80-1bf8-409a-93e7-c3f2423e4ee9",
@@ -675,6 +731,14 @@
             "Value": {
                 "id": "1edb5c28-4dff-4ba3-854d-4ff5ac6ea4d1",
                 "resourcePath": "sprites\\spr_screen\\spr_screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "effa1ba6-762c-4048-86f1-23c162dd79db",
+            "Value": {
+                "id": "44b86ecf-e25f-46dd-9c8a-ceaff972d525",
+                "resourcePath": "sprites\\spr_tentacle_leg_attack\\spr_tentacle_leg_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
