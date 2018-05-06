@@ -12,19 +12,18 @@ var count = array_length_1d(gamepads);
 var screenObj = obj_screen;
 var bodyMapObj = obj_body_map;
 
-if (count <= 2) {
-  player1 = instance_create_layer(280, 560, "Characters", obj_player1);
-  instance_create_layer(40, 0, "Screens", screenObj);
-  player1.bodyMap = instance_create_layer(40, 0, "BodyMaps", bodyMapObj);
-  player1.bodyMap.sprite_index = spr_body_map_red;
-  player1.bodyMap.char = player1;
+player1 = instance_create_layer(280, 560, "Characters", obj_player1);
+instance_create_layer(40, 0, "Screens", screenObj);
+player1.bodyMap = instance_create_layer(40, 0, "BodyMaps", bodyMapObj);
+player1.bodyMap.sprite_index = spr_body_map_red;
+player1.bodyMap.char = player1;
   
-  player2 = instance_create_layer(380, 580, "Characters", obj_player2);
-  instance_create_layer(360, 0, "Screens", screenObj);
-  player2.bodyMap = instance_create_layer(360, 0, "BodyMaps", bodyMapObj);
-  player2.bodyMap.sprite_index = spr_body_map_blue;
-  player2.bodyMap.char = player2;
-}
+player2 = instance_create_layer(380, 580, "Characters", obj_player2);
+instance_create_layer(360, 0, "Screens", screenObj);
+player2.bodyMap = instance_create_layer(360, 0, "BodyMaps", bodyMapObj);
+player2.bodyMap.sprite_index = spr_body_map_blue;
+player2.bodyMap.char = player2;
+
 if (count >= 3) {
   player3 = instance_create_layer(480, 520, "Characters", obj_player3);
   instance_create_layer(680, 0, "Screens", screenObj);
@@ -32,6 +31,7 @@ if (count >= 3) {
   player3.bodyMap.sprite_index = spr_body_map_green;
   player3.bodyMap.char = player3;
 }
+
 if (count >= 4) {
   player4 = instance_create_layer(580, 600, "Characters", obj_player4);
   instance_create_layer(1000, 0, "Screens", screenObj);
