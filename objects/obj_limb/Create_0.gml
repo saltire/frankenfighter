@@ -22,6 +22,7 @@ hitFeedbackTime = 10;
 hitFeedbackTimeRemaining = 0;
 hitFeedbackColor = make_color_rgb(255, 128, 0);
 
+selectingPlayer = noone;
 lastHilitePlayer = noone;
 
 tossSpeedX = 0;

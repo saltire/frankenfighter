@@ -1,6 +1,6 @@
 //bodyMap.slot = noone;
 
-if (bodyMap.limb != noone) {
+if (instance_exists(bodyMap.limb)) {
   if (rPunchPressed || lPunchPressed || rKickPressed || lKickPressed) {
     bodyMap.limb.attacking = false;
     bodyMap.limb.image_alpha = 1;
