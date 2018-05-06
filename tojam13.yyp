@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "5d6ceb63-7246-4687-b0f0-4d2b1c95b5ad",
+            "Value": {
+                "id": "629874d6-2431-4a89-a298-885167e4acba",
+                "resourcePath": "objects\\obj_tentacle\\obj_tentacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6340e459-8bcc-4912-9f8f-e4427cb009b6",
             "Value": {
                 "id": "c527c504-fc8c-4572-ac2f-5cdc879d3584",
@@ -420,6 +428,14 @@
                 "id": "49a54d89-300f-4952-956f-7cf016cf0363",
                 "resourcePath": "views\\8c859703-f12b-47b9-a4a3-cec55c6b37ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8de19a15-22ae-4ea5-94de-0391414bced9",
+            "Value": {
+                "id": "4d83beb9-8621-4fc4-ac9b-d883cd092a2b",
+                "resourcePath": "sprites\\spr_tentacle_arm_walk\\spr_tentacle_arm_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -663,6 +679,14 @@
             }
         },
         {
+            "Key": "d59c3e0b-e975-431a-a49c-658e7dad94a3",
+            "Value": {
+                "id": "13ce2ba4-5745-407d-9fc0-bad53948bacb",
+                "resourcePath": "sprites\\spr_tentacle_body\\spr_tentacle_body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5d48042-9608-49ba-9724-2352ac383bdc",
             "Value": {
                 "id": "fa0ed5a2-92b4-4809-b770-11e36ceee034",
@@ -743,6 +767,14 @@
             }
         },
         {
+            "Key": "ed5375a1-209d-4dfc-866f-d6b2b8c85d4f",
+            "Value": {
+                "id": "3b02bfde-9d00-4adf-9f31-eb18e92c0ee4",
+                "resourcePath": "sprites\\spr_tentacle_arm_attack\\spr_tentacle_arm_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef2c4b11-5b8b-4452-ba8b-2f3eb0a10213",
             "Value": {
                 "id": "1edb5c28-4dff-4ba3-854d-4ff5ac6ea4d1",
@@ -812,6 +844,14 @@
                 "id": "6c2f5cda-98b3-47a1-a40f-1e03bc1128a2",
                 "resourcePath": "sprites\\spr_player_body_blue\\spr_player_body_blue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff5e2877-4448-43c3-98dc-8123a90b2e80",
+            "Value": {
+                "id": "19c186f4-d84f-408e-b304-3a4c92a9e809",
+                "resourcePath": "objects\\obj_tentacle_arm\\obj_tentacle_arm.yy",
+                "resourceType": "GMObject"
             }
         },
         {
