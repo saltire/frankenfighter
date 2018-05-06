@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "7011e0bc-6eaa-481e-95d1-55bdc85a4401",
+            "Value": {
+                "id": "68a0e675-5b1d-4a82-b7fa-8c43cc3bdc09",
+                "resourcePath": "objects\\obj_sound_control\\obj_sound_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70597d83-697c-4d54-8615-fbb577fc9f70",
             "Value": {
                 "id": "610fbbaa-fe20-45e1-b4be-1b8d42349252",

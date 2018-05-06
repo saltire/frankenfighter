@@ -1,5 +1,3 @@
-randomize();
-
 var gamepads = [];
 
 var slots = gamepad_get_device_count();
