@@ -13,21 +13,7 @@ if (bodyMap.limb != noone) {
 }
 else {
   sc_player_movement();
-  
-  if (attackCooldownRemaining <= 0) {
-    if (lPunchPressed && leftArm != noone) {
-      sc_limb_attack(leftArm);
-    }
-    else if (rPunchPressed && rightArm != noone) {
-      sc_limb_attack(rightArm);
-    }
-    else if (lKickPressed && leftLeg != noone) {
-      sc_limb_attack(leftLeg);
-    }
-    else if (rKickPressed && rightLeg != noone) {
-      sc_limb_attack(rightLeg);
-    }
-  }
+  sc_player_attack();
 }
 
 if (previewLimb != noone) {
@@ -35,5 +21,4 @@ if (previewLimb != noone) {
 }
 
 // Reset this every turn before collision events
-//debug("x");
 hilightLimb = noone;
