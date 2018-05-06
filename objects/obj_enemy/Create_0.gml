@@ -9,3 +9,5 @@ walkDelayRemaining = noone;
 minDistance = 80;
 maxAttackDist = 100;
 
+shadowInstance = instance_create_depth(x, y, depth, obj_shadow);
+shadowInstance.host = self;

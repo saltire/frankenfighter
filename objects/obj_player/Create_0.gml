@@ -33,3 +33,7 @@ leftArm = sc_limb_add(leftArmObj, 1);
 rightLeg = sc_limb_add(rightLegObj, 2);
 leftLeg = sc_limb_add(leftLegObj, 3);
 head = sc_limb_add(headObj, 4);
+
+
+shadowInstance = instance_create_depth(x, y, depth, obj_shadow);
+shadowInstance.host = self;

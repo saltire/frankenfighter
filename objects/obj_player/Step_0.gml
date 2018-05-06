@@ -35,5 +35,5 @@ if (previewLimb != noone) {
 }
 
 // Reset this every turn before collision events
-debug("x");
+//debug("x");
 hilightLimb = noone;
