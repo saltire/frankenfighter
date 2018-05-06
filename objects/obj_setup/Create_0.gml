@@ -14,7 +14,7 @@ var count = array_length_1d(controllers);
 //  player1.joy = controllers[0];
 //  player1.bodyMap = instance_create_layer(540, 20, "Screens", obj_screen);
 //}
-//else if (count >= 2) {
+if (count <= 2) {
   player1 = instance_create_layer(280, 560, "Characters", obj_player1);
   //player1.joy = controllers[0];
   player1.bodyMap = instance_create_layer(240, 20, "Screens", obj_screen);
@@ -22,7 +22,8 @@ var count = array_length_1d(controllers);
   player2 = instance_create_layer(380, 580, "Characters", obj_player2);
   //player2.joy = controllers[1];
   player2.bodyMap = instance_create_layer(840, 20, "Screens", obj_screen);
-//}
+}
+
 
 minSpawnDistance = 120;
 spawnX = 1350;
