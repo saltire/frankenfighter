@@ -7,14 +7,16 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 		if (random(1) > criticalChance) {
 			collisionInstance.durabilityCurrent -= baseAttackValue + slotMatchBonusAttack;
 		} else {
-			with (collisionInstance) sc_limb_eject(self);
+			sc_limb_eject(collisionInstance);
 		}
+    sc_hit_feedback(collisionInstance);
 	}
 	// Check for collision with bodies
 	var collisionInstance = collision_rectangle(x + (colRectX1 * image_xscale), y + colRectY1, x + (colRectX2 * image_xscale), y + colRectY2, obj_player, true, true);
 	if (collisionInstance != noone) {
 		hittingEnemy = true;
 		collisionInstance.durabilityCurrent -= baseAttackValue + slotMatchBonusAttack;
+    sc_hit_feedback(collisionInstance);
 	}
 	
 }

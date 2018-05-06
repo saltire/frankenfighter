@@ -6,6 +6,12 @@ if (attackTimeRemaining > 0) {
   }
 }
 
+if (hitFeedbackTimeRemaining > 0) {
+  hitFeedbackTimeRemaining -= 1;
+  
+  
+}
+
 if (tossSpeedX != 0) {
   // Flying through the air
   tossSpeedY += grav;
@@ -31,4 +37,4 @@ if (host && durabilityCurrent <= 0) {
 
 
 // Attack collision function call
-sc_attack();
+sc_attack_collision();

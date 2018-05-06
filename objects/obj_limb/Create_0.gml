@@ -10,6 +10,10 @@ attackTimeRemaining = 0;
 
 attackCooldown = 20;
 
+hitFeedbackTime = 10;
+hitFeedbackTimeRemaining = 0;
+hitFeedbackColor = make_color_rgb(255, 128, 0);
+
 tossSpeedX = 0;
 tossSpeedY = 0;
 tossTargetY = 0;
