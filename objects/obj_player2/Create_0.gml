@@ -9,8 +9,8 @@ keyRPunch = ord("I");
 keyLKick = ord("L");
 keyRKick = ord("K");
 
-leftArmObj = obj_frankenstein_arm;
-rightArmObj = obj_frankenstein_arm;
+leftArmObj = obj_robot_arm;
+rightArmObj = obj_robot_arm;
 leftLegObj = obj_robot_leg;
 rightLegObj = obj_robot_leg;
 headObj = obj_player_head_cyclops;

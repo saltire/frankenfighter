@@ -26,6 +26,8 @@ else {
       break;
     }
   }
+  
+  image_xscale = sign(lengthdir_x(1, nearestDir));
 
   if (!stop) {
     var walkDir = nearestDir + irandom_range(-40, 40);
@@ -34,7 +36,6 @@ else {
     var destX = x + dx;
     var destY = y + dy;
 
-    image_xscale = sign(lengthdir_x(1, nearestDir));
     x = destX;
     y = destY;
   

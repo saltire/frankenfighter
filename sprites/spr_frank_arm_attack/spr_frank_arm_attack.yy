@@ -2,7 +2,7 @@
     "id": "3594a738-3061-4bf9-ba17-2c35f79e9b2a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_frankenstein_arm_attack",
+    "name": "spr_frank_arm_attack",
     "For3D": false,
     "HTile": false,
     "VTile": false,

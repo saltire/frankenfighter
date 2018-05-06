@@ -194,8 +194,16 @@
             "Key": "3594a738-3061-4bf9-ba17-2c35f79e9b2a",
             "Value": {
                 "id": "286ce230-2de6-4aac-9c46-4dd4d7dd173f",
-                "resourcePath": "sprites\\spr_frankenstein_arm_attack\\spr_frankenstein_arm_attack.yy",
+                "resourcePath": "sprites\\spr_frank_arm_attack\\spr_frank_arm_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3aca09d6-53b7-4f77-84d7-45b3013b2127",
+            "Value": {
+                "id": "28ea9acf-dc46-4fae-b4ae-c97b7bba28c8",
+                "resourcePath": "objects\\obj_frank_head\\obj_frank_head.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "47e67bf9-c27b-43fc-9c46-e51be6dd37ac",
+            "Value": {
+                "id": "97ed8ad9-9d2f-427a-92d8-a8c3d0f8992e",
+                "resourcePath": "objects\\obj_frank\\obj_frank.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b6d0ecd-23f2-430e-b513-b096d6805452",
             "Value": {
                 "id": "3ddc6883-54b1-4115-b74b-879c47288237",
@@ -243,6 +259,14 @@
             "Value": {
                 "id": "84b8da65-9722-41e2-a74c-2a27c70b2d5d",
                 "resourcePath": "sprites\\spr_body_filled\\spr_body_filled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5027e81c-11cf-44fe-bacf-e4f3f0901aee",
+            "Value": {
+                "id": "bf41b8d9-0ff7-42bd-846b-de268c76f691",
+                "resourcePath": "sprites\\spr_frank_leg_attack\\spr_frank_leg_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "8761ece6-512c-4317-ab17-652375ff8cca",
+            "Value": {
+                "id": "e8ab6e26-2b29-411c-81be-f52f061be647",
+                "resourcePath": "sprites\\spr_frank_body\\spr_frank_body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89c6d314-2bb6-4c29-adc7-0b7346045717",
             "Value": {
                 "id": "90eb9510-d2b2-4781-a7d6-f4a442cfd81a",
@@ -394,7 +426,7 @@
             "Key": "8f80cf1c-9bd3-490e-afe7-0ea74846ff2b",
             "Value": {
                 "id": "92f4675b-53f4-4103-8e2d-833ec57f9246",
-                "resourcePath": "sprites\\spr_frankenstein_arm_walk\\spr_frankenstein_arm_walk.yy",
+                "resourcePath": "sprites\\spr_frank_arm_walk\\spr_frank_arm_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -575,11 +607,27 @@
             }
         },
         {
+            "Key": "c383e663-9987-4a8c-bb4f-b64d43245784",
+            "Value": {
+                "id": "0bb1f1e6-e2e6-4dfc-98c9-169e891e4170",
+                "resourcePath": "objects\\obj_frank_leg\\obj_frank_leg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c42477dd-4533-4a24-a4db-afae8ce4cf3b",
             "Value": {
                 "id": "09d37f2b-f733-4b82-97bb-853f3c64b80f",
                 "resourcePath": "views\\c42477dd-4533-4a24-a4db-afae8ce4cf3b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5fd5034-0d66-40a9-a027-c2b4ff86bb09",
+            "Value": {
+                "id": "e13609c5-a0e5-4e8e-a5a1-63e99bd5b532",
+                "resourcePath": "sprites\\spr_frank_head\\spr_frank_head.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -615,11 +663,27 @@
             }
         },
         {
+            "Key": "d5d48042-9608-49ba-9724-2352ac383bdc",
+            "Value": {
+                "id": "fa0ed5a2-92b4-4809-b770-11e36ceee034",
+                "resourcePath": "objects\\obj_frank_arm\\obj_frank_arm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6315f49-d3eb-4393-adca-3fec7ef9100f",
             "Value": {
                 "id": "1de6af9a-6fd7-49d5-9bf9-1a442c2fbbcb",
                 "resourcePath": "views\\d6315f49-d3eb-4393-adca-3fec7ef9100f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d69d1747-1d97-4540-a9b4-bd3a88a23a49",
+            "Value": {
+                "id": "0a94c112-6958-48dd-85c5-5f17535304b6",
+                "resourcePath": "sprites\\spr_frank_leg_walk\\spr_frank_leg_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

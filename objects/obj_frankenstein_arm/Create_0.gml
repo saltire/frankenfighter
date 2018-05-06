@@ -1,6 +1,6 @@
 event_inherited();
 
-attackSprite = spr_frankenstein_arm_attack;
+attackSprite = spr_frank_arm_attack;
 
 // Set hurt box rectangle
 colRectX1 = 82 - sprite_xoffset;

@@ -30,4 +30,7 @@ spawnYMin = 340;
 spawnYMax = 680;
 spawnChance = 0.004;
 
+enemies = [obj_robot, obj_frank];
+enemyCount = 2;
+
 randomize();

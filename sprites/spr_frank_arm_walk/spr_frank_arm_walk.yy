@@ -2,7 +2,7 @@
     "id": "8f80cf1c-9bd3-490e-afe7-0ea74846ff2b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_frankenstein_arm_walk",
+    "name": "spr_frank_arm_walk",
     "For3D": false,
     "HTile": false,
     "VTile": false,
