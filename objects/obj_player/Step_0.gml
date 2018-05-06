@@ -17,14 +17,24 @@ if (bodyMap.limb != noone) {
 }
 else {
   sc_player_movement();
-  sc_player_attack();
+  
+  if (attackCooldownRemaining <= 0) {
+    if (lPunchPressed && leftArm != noone) {
+      sc_limb_attack(leftArm);
+    }
+    else if (rPunchPressed && rightArm != noone) {
+      sc_limb_attack(rightArm);
+    }
+    else if (lKickPressed && leftLeg != noone) {
+      sc_limb_attack(leftLeg);
+    }
+    else if (rKickPressed && rightLeg != noone) {
+      sc_limb_attack(rightLeg);
+    }
+  }
 }
 
-// Limb Handling
-sc_limb_place(rightArm);
-sc_limb_place(leftArm);
-sc_limb_place(rightLeg);
-sc_limb_place(leftLeg);
+event_inherited();
 
 if (previewLimb != noone) {
   sc_limb_place(previewLimb);

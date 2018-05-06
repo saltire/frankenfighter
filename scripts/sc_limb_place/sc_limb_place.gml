@@ -28,6 +28,10 @@ if instance_exists(limb) {
     offsetY = flip ? frontLegY : backLegY;
     relDepth = flip ? -1 : 1;
   }
+  else if (limb.slot == 4) {
+    offsetX = headX;
+    offsetY = headY;
+  }
   
   limb.x = x + offsetX * image_xscale;
   limb.y = y + offsetY;

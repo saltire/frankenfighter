@@ -8,7 +8,8 @@
         "409c728e-dff4-4167-8eba-e4dc3ede4c80",
         "1960e18a-5c8f-40fa-90c6-b42e907032a9",
         "1eb9d82d-e3a6-4328-9f6e-e73cb06abfcc",
-        "0ad575cb-ced7-48cc-b004-411469703491"
+        "0ad575cb-ced7-48cc-b004-411469703491",
+        "bd705d4b-7e01-4656-a772-1671c520dd4d"
     ],
     "filterType": "GMSprite",
     "folderName": "limbs",
