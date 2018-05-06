@@ -1,6 +1,9 @@
 event_inherited();
 
 attackSprite = spr_tentacle_leg_attack;
+armOverride = true;
+armSprite = spr_tentacle_arm_walk;
+armAttackSprite = spr_tentacle_arm_attack;
 
 // Set hurt box rectangle
 colRectX1 = 116 - sprite_xoffset;

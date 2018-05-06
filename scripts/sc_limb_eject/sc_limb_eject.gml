@@ -28,7 +28,7 @@ if (limb != noone) {
   limb.slot = noone;
   limb.image_speed = 0;
   limb.image_angle = 90;
-  limb.sprite_index = limb.idleSprite;
+  limb.attacking = false;
   limb.depth = -limb.tossTargetY;
   limb.layer = layer_get_id("Objects");
 }

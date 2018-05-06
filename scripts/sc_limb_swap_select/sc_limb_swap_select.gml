@@ -1,7 +1,7 @@
 //bodyMap.slot = noone;
 
 if (rPunchPressed || lPunchPressed || rKickPressed || lKickPressed) {
-  bodyMap.limb.sprite_index = bodyMap.limb.idleSprite;
+  bodyMap.limb.attacking = false;
   bodyMap.limb.image_alpha = 1;
   
   if (rightArm != noone) rightArm.image_alpha = 1;
@@ -22,7 +22,7 @@ if (rPunchPressed) {
   previewLimb.slot = 0;
   
   if (rightArm != noone) {
-    bodyMap.limb.sprite_index = rightArm.idleSprite;
+    bodyMap.limb.attacking = false;
     rightArm.image_alpha = 0;
   }
   else {
@@ -35,7 +35,7 @@ else if (lPunchPressed) {
   previewLimb.slot = 1;
   
   if (leftArm != noone) {
-    bodyMap.limb.sprite_index = leftArm.idleSprite;
+    bodyMap.limb.attacking = false;
     leftArm.image_alpha = 0;
   }
   else {
@@ -48,7 +48,7 @@ else if (rKickPressed) {
   previewLimb.slot = 2;
   
   if (rightLeg != noone) {
-    bodyMap.limb.sprite_index = rightLeg.idleSprite;
+    bodyMap.limb.attacking = false;
     rightLeg.image_alpha = 0;
   }
   else {
@@ -61,7 +61,7 @@ else if (lKickPressed) {
   previewLimb.slot = 3;
   
   if (leftLeg != noone) {
-    bodyMap.limb.sprite_index = leftLeg.idleSprite;
+    bodyMap.limb.attacking = false;
     leftLeg.image_alpha = 0;
   }
   else {

@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "34204fba-5d42-415b-afad-6ea29e2ae209",
+            "Value": {
+                "id": "6db13aa7-e3b4-429b-a125-638e49097278",
+                "resourcePath": "sprites\\spr_frank_leginarm_walk\\spr_frank_leginarm_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3594a738-3061-4bf9-ba17-2c35f79e9b2a",
             "Value": {
                 "id": "286ce230-2de6-4aac-9c46-4dd4d7dd173f",
@@ -287,14 +295,6 @@
             }
         },
         {
-            "Key": "4c6401eb-4ea7-44f9-b35c-d56fa3b3159f",
-            "Value": {
-                "id": "84b8da65-9722-41e2-a74c-2a27c70b2d5d",
-                "resourcePath": "sprites\\spr_body_filled\\spr_body_filled.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4cbf9e7d-0175-44a1-be96-c45d87292732",
             "Value": {
                 "id": "e480cbff-010b-40c1-a2e8-1f0399adaaf1",
@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "5f493fcb-8fdb-406d-a3e7-dc719022799d",
+            "Value": {
+                "id": "11c77dd4-33af-4e6f-8795-01b738494927",
+                "resourcePath": "views\\5f493fcb-8fdb-406d-a3e7-dc719022799d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6340e459-8bcc-4912-9f8f-e4427cb009b6",
             "Value": {
                 "id": "c527c504-fc8c-4572-ac2f-5cdc879d3584",
@@ -387,6 +395,14 @@
             "Value": {
                 "id": "983dd3b1-62af-40fe-a5db-995682e6dfe1",
                 "resourcePath": "sprites\\spr_tetsuo_arm_attack\\spr_tetsuo_arm_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c9b13c0-ae04-4779-a528-96769698113f",
+            "Value": {
+                "id": "a877cb60-c72e-4ed8-b870-be8beca8f25f",
+                "resourcePath": "sprites\\spr_frank_leginarm_attack\\spr_frank_leginarm_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -564,14 +580,6 @@
                 "id": "d035182e-30c2-43de-804f-fe6c5d5f7fb1",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9f0f9d11-5e6b-427b-a572-bdab77da2c9d",
-            "Value": {
-                "id": "87721831-2903-445c-9d54-1ddef6000fcb",
-                "resourcePath": "sprites\\spr_body_select\\spr_body_select.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

@@ -4,7 +4,15 @@ image_speed = 0;
 
 idleSprite = sprite_index;
 attackSprite = noone;
+// Optional overrides for arm/leg slots
+armOverride = false;
+armSprite = noone;
+armAttackSprite = noone;
+legOverride = false;
+legSprite = noone;
+legAttackSprite = noone;
 
+attacking = false; // for rendering
 attackTime = 10;
 attackTimeRemaining = 0;
 

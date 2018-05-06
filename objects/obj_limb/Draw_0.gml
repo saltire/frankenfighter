@@ -1,3 +1,11 @@
+sprite_index = attacking ? attackSprite : idleSprite;
+if (armOverride && (slot == 0 || slot == 1)) {
+  sprite_index = attacking ? armAttackSprite : armSprite;
+}
+if (legOverride && (slot == 2 || slot == 3)) {
+  sprite_index = attacking ? legAttackSprite : legSprite;
+}
+
 if ((hitFeedbackTimeRemaining % 4) > 1) {
   gpu_set_fog(true, hitFeedbackColor, 0, 0);
   draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);

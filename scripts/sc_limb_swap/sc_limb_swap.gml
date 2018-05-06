@@ -34,7 +34,7 @@ if (bodyMap.slot != noone) {
   newLimb.slot = bodyMap.slot;
   newLimb.image_angle = 0;
   newLimb.image_alpha = 1;
-  newLimb.sprite_index = newLimb.idleSprite;
+  newLimb.attacking = false;
   newLimb.layer = layer_get_id("Characters");
   
   bodyMap.slot = noone;

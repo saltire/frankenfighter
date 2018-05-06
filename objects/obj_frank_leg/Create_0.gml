@@ -1,6 +1,9 @@
 event_inherited();
 
 attackSprite = spr_frank_leg_attack;
+armOverride = true;
+armSprite = spr_frank_leginarm_walk;
+armAttackSprite = spr_frank_leginarm_attack;
 
 // Set hurt box rectangle
 colRectX1 = 131 - sprite_xoffset;
