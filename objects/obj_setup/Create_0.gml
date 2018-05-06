@@ -26,10 +26,18 @@ if (count <= 2) {
   player2.bodyMap.char = player2;
 }
 if (count >= 3) {
-  // player 3
+  player3 = instance_create_layer(480, 520, "Characters", obj_player3);
+  instance_create_layer(680, 0, "Screens", screenObj);
+  player3.bodyMap = instance_create_layer(680, 0, "BodyMaps", bodyMapObj);
+  player3.bodyMap.sprite_index = spr_body_map_green;
+  player3.bodyMap.char = player3;
 }
 if (count >= 4) {
-  // player 4
+  player4 = instance_create_layer(580, 600, "Characters", obj_player4);
+  instance_create_layer(1000, 0, "Screens", screenObj);
+  player4.bodyMap = instance_create_layer(1000, 0, "BodyMaps", bodyMapObj);
+  player4.bodyMap.sprite_index = spr_body_map_purple;
+  player4.bodyMap.char = player4;
 }
 
 
