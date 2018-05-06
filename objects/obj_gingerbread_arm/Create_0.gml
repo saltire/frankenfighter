@@ -12,7 +12,7 @@ colRectY2 = 65 - sprite_yoffset;
 baseAttackValue = 4;
 attackCooldown = 1 * BASEATTACKCOOLDOWN;
 criticalChance = 2/20;
-durabilityLoss = 2;
+durabilityLoss = 4;
 durabilityMax = 40;
 durabilityCurrent = durabilityMax;
 

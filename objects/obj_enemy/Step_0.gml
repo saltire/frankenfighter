@@ -23,10 +23,13 @@ if (leftLeg != noone) {
   count++;
 }
 
-
 // Self-destruct if out of legs
 
 if (rightLeg == noone && leftLeg == noone) {
+	
+  var bang = instance_create_layer(x, y, "Characters", obj_bang);
+  bang.depth = depth+2
+	
   for (var i = 0; i < count; i++) {
     sc_limb_eject(limbs[i]);
   }
@@ -36,6 +39,7 @@ if (rightLeg == noone && leftLeg == noone) {
   }
   
   instance_destroy();
+  
 }
 else {
   
