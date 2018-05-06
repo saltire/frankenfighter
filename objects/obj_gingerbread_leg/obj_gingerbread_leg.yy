@@ -1,23 +1,23 @@
 {
-    "id": "91f204e6-fd12-4f48-90c7-002c4185495e",
+    "id": "8c22063b-7fd3-4bfe-afbf-7c288039e97e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gingerbread_arm",
+    "name": "obj_gingerbread_leg",
     "eventList": [
         {
-            "id": "49a6eef9-7798-40d0-8618-733ea6b4bf24",
+            "id": "02241a26-dc90-4ac2-a85d-b13eb99eab0a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "91f204e6-fd12-4f48-90c7-002c4185495e"
+            "m_owner": "8c22063b-7fd3-4bfe-afbf-7c288039e97e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8b02d476-25cf-4103-b9b4-dcf18b37bafe",
+    "parentObjectId": "46981ac6-e7c0-4c2a-83e5-46b4b2002151",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a801bba8-00da-4c31-8471-724f080e5d8f",
+    "spriteId": "a2dcd616-ee34-4090-ad4c-9ef09e9b3a6b",
     "visible": true
 }

@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "34675326-1192-4227-ba1a-d0f9b5aff56c",
+            "Value": {
+                "id": "a95d1f04-84f3-4490-8732-1451a4a6485c",
+                "resourcePath": "objects\\obj_gingerbread\\obj_gingerbread.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3594a738-3061-4bf9-ba17-2c35f79e9b2a",
             "Value": {
                 "id": "286ce230-2de6-4aac-9c46-4dd4d7dd173f",
@@ -308,6 +316,14 @@
                 "id": "65fcbefc-18d3-4b9d-9b5b-e6868fa752e2",
                 "resourcePath": "objects\\obj_body_map\\obj_body_map.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e2ca909-8b35-48ce-a6d1-1c202aeee590",
+            "Value": {
+                "id": "bcc0216c-2a1c-406d-97e3-c31f1270d483",
+                "resourcePath": "sprites\\spr_gingerbread_leg_attack\\spr_gingerbread_leg_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -403,6 +419,14 @@
             "Value": {
                 "id": "a877cb60-c72e-4ed8-b870-be8beca8f25f",
                 "resourcePath": "sprites\\spr_frank_leginarm_attack\\spr_frank_leginarm_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e497963-ad7c-43e1-903e-9805f0cffafb",
+            "Value": {
+                "id": "9b77c6cd-a70d-4558-b487-40b73b80e89f",
+                "resourcePath": "sprites\\spr_gingerbread_body\\spr_gingerbread_body.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -511,6 +535,14 @@
             }
         },
         {
+            "Key": "8c22063b-7fd3-4bfe-afbf-7c288039e97e",
+            "Value": {
+                "id": "5372e031-314f-4ee5-adc6-262d4b2d8609",
+                "resourcePath": "objects\\obj_gingerbread_leg\\obj_gingerbread_leg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c859703-f12b-47b9-a4a3-cec55c6b37ef",
             "Value": {
                 "id": "49a54d89-300f-4952-956f-7cf016cf0363",
@@ -604,6 +636,14 @@
                 "id": "76abb68e-4bad-4996-a179-8a29fb088b8b",
                 "resourcePath": "scripts\\sc_char_walk_cycle\\sc_char_walk_cycle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a2dcd616-ee34-4090-ad4c-9ef09e9b3a6b",
+            "Value": {
+                "id": "f520bb1c-565a-4710-9c0b-3239331de850",
+                "resourcePath": "sprites\\spr_gingerbread_leg_walk\\spr_gingerbread_leg_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -820,6 +860,22 @@
                 "id": "77d0cd48-9eb8-4010-aa66-0d189f2b1152",
                 "resourcePath": "views\\d9bf39bc-5fa5-43cb-b912-0f5a342b736b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "db023c82-9238-4de6-ad9e-666016aa2310",
+            "Value": {
+                "id": "a4a4de2d-7fae-499b-9b52-7e3b4021b464",
+                "resourcePath": "objects\\obj_gingerbread_head\\obj_gingerbread_head.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db7227f2-0c8f-4958-8b4e-ff24bb968e41",
+            "Value": {
+                "id": "11246946-b55c-499a-a780-77c8ca1db084",
+                "resourcePath": "sprites\\spr_gingerbread_head\\spr_gingerbread_head.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
