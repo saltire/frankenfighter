@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "2db59a9a-e1a3-46c3-a217-c26346eb451a",
-            "Value": {
-                "id": "8425b64d-3d3e-482e-914a-a7515b66881f",
-                "resourcePath": "sprites\\spr_icon_arm\\spr_icon_arm.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2f4335e8-9cf1-44fe-8cef-f14a49d240b9",
             "Value": {
                 "id": "2f93bd2c-d725-4f19-82ad-7d578de45733",
@@ -299,6 +291,14 @@
             "Value": {
                 "id": "84b8da65-9722-41e2-a74c-2a27c70b2d5d",
                 "resourcePath": "sprites\\spr_body_filled\\spr_body_filled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cbf9e7d-0175-44a1-be96-c45d87292732",
+            "Value": {
+                "id": "e480cbff-010b-40c1-a2e8-1f0399adaaf1",
+                "resourcePath": "sprites\\spr_icon_arm\\spr_icon_arm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "c8bcd9bb-c7b0-42f1-949a-426b09cdbd40",
+            "Value": {
+                "id": "88297cf7-134b-4c5e-b354-ab4ee8cf4b82",
+                "resourcePath": "sprites\\spr_icon_leg\\spr_icon_leg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "e90c293f-5c1b-4faa-be0c-fa7029542d7b",
@@ -739,14 +747,6 @@
             "Value": {
                 "id": "cb44496d-9830-4bd7-9087-f7e16bdc3c1e",
                 "resourcePath": "sprites\\sp_wall\\sp_wall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d0df408d-0aa7-4655-88f3-87a6ff91546a",
-            "Value": {
-                "id": "c4cd0353-0991-42b2-b7f2-9e6003a3cebc",
-                "resourcePath": "sprites\\spr_icon_leg\\spr_icon_leg.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,13 +2,13 @@
 
 char = noone;
 
-rightArmX = 50;
+rightArmX = 70;
 rightArmY = 80;
-leftArmX = 150;
+leftArmX = 170;
 leftArmY = 80;
-rightLegX = 50;
+rightLegX = 70;
 rightLegY = 140;
-leftLegX = 150;
+leftLegX = 170;
 leftLegY = 140;
 
 slot = noone;
