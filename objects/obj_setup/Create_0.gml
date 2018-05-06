@@ -1,15 +1,15 @@
 randomize();
 
-var controllers = [];
+var gamepads = [];
 
 var slots = gamepad_get_device_count();
 for (var i = 0; i < slots; i++) {
   if (gamepad_is_connected(i)) {
-    controllers[array_length_1d(controllers)] = i;
+    gamepads[array_length_1d(gamepads)] = i;
   }
 }
 
-var count = array_length_1d(controllers);
+var count = array_length_1d(gamepads);
 
 var screenObj = obj_screen;
 var bodyMapObj = obj_body_map;
