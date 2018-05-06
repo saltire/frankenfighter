@@ -9,19 +9,27 @@ for (var i = 0; i < slots; i++) {
 
 var count = array_length_1d(controllers);
 
-//if (count == 1) {
-//  player1 = instance_create_layer(280, 560, "Characters", obj_player1);
-//  player1.joy = controllers[0];
-//  player1.bodyMap = instance_create_layer(540, 20, "Screens", obj_screen);
-//}
+var screenObj = obj_screen;
+var bodyMapObj = obj_body_map;
+
 if (count <= 2) {
   player1 = instance_create_layer(280, 560, "Characters", obj_player1);
-  //player1.joy = controllers[0];
-  player1.bodyMap = instance_create_layer(240, 20, "Screens", obj_screen);
+  instance_create_layer(40, 0, "Screens", screenObj);
+  player1.bodyMap = instance_create_layer(40, 0, "BodyMaps", bodyMapObj);
+  player1.bodyMap.sprite_index = spr_body_map_red;
+  player1.bodyMap.char = player1;
   
   player2 = instance_create_layer(380, 580, "Characters", obj_player2);
-  //player2.joy = controllers[1];
-  player2.bodyMap = instance_create_layer(840, 20, "Screens", obj_screen);
+  instance_create_layer(360, 0, "Screens", screenObj);
+  player2.bodyMap = instance_create_layer(360, 0, "BodyMaps", bodyMapObj);
+  player2.bodyMap.sprite_index = spr_body_map_blue;
+  player2.bodyMap.char = player2;
+}
+if (count >= 3) {
+  // player 3
+}
+if (count >= 4) {
+  // player 4
 }
 
 

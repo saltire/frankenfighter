@@ -22,7 +22,6 @@ grav = 1;
 hittingEnemy = false;
 
 // STATS SETUP for inheritence
-slotType = "leg";
 baseAttackValue = 4;
 attackCooldown = 16;
 knockbackStrength = 3 * 3;

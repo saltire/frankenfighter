@@ -9,7 +9,6 @@ colRectX2 = 190 - sprite_xoffset;
 colRectY2 = 130 - sprite_yoffset;
 
 // STATS SETUP
-slotType = "leg";
 baseAttackValue = 20;
 attackCooldown = 20;
 knockbackStrength = 3 * 3;
