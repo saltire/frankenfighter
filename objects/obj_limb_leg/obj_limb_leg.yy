@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_limb_leg",
     "eventList": [
-        {
-            "id": "3b49423b-8a38-4987-8190-83631ad95c65",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "46981ac6-e7c0-4c2a-83e5-46b4b2002151"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
