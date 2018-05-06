@@ -42,3 +42,6 @@ leftLeg.slot = 3;
 head = instance_create_layer(x, y, layer, headObj);
 head.host = self;
 head.slot = 4;
+
+// Enemy values
+walkSpeed = 1;

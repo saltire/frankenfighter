@@ -24,5 +24,10 @@ var count = array_length_1d(controllers);
   player2.bodyMap = instance_create_layer(840, 20, "Screens", obj_screen);
 //}
 
+minSpawnDistance = 120;
+spawnX = 1350;
+spawnYMin = 340;
+spawnYMax = 680;
+spawnChance = 0.005;
 
 randomize();
