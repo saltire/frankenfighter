@@ -2,6 +2,11 @@
 var hspd = hspdMax * hInput;
 var vspd = vspdMax * vInput;
 
+if (attackCooldownRemaining > 0) {
+  hspd = 0;
+  vspd = 0;
+}
+
 // Collision checks horizontal
 if (place_meeting(x + hspd, y, obj_wall)) {
   while (!place_meeting(x + sign(hspd), y, obj_wall)) {
@@ -30,6 +35,8 @@ if (hspd != 0) {
 // Depth increase as y decreases
 depth = -y;
 
+
+// HANDLE THE ANIMATION OFFSET FOR LIMBS
 if (hspd != 0 || vspd != 0) {
 	with (leftArm) {
 		if (image_speed == 0) {
