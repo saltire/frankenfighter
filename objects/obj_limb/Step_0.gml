@@ -7,13 +7,19 @@ if (attackTimeRemaining > 0) {
 }
 
 if (tossSpeedX != 0) {
+  // Flying through the air
   tossSpeedY += grav;
   x += tossSpeedX;
   y += tossSpeedY;
   
   if (y >= tossTargetY) {
+    // Hit the ground
     tossSpeedX = 0;
     tossSpeedY = 0;
+    
+    if (durabilityCurrent <= 0) {
+      instance_destroy();
+    }
   }
 }
 
