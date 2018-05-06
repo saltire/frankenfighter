@@ -5,10 +5,10 @@ if (attackCooldownRemaining <= 0) {
 	else if (rPunchPressed && rightArm != noone) {
 	    sc_limb_attack(rightArm);
 	}
-	else if (lKickPressed && leftLeg != noone) {
+	else if (lKickPressed && leftLeg != noone && rightLeg != noone) {
 	    sc_limb_attack(leftLeg);
 	}
-	else if (rKickPressed && rightLeg != noone) {
+	else if (rKickPressed && rightLeg != noone && leftLeg != noone) {
 	    sc_limb_attack(rightLeg);
 	}
 }

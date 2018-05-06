@@ -19,7 +19,10 @@ if (bodyMap.slot != noone) {
     leftLeg = newLimb;
   }
   
-  oldLimb.image_alpha = 1;
+  if (oldLimb != noone) {
+	oldLimb.image_alpha = 1;
+  }
+  
   if (previewLimb != noone) {
     instance_destroy(previewLimb);
     previewLimb = noone;
