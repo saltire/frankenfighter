@@ -1,3 +1,3 @@
 draw_self();
 
-//draw_text(x, y, string(durabilityCurrent));
+draw_text(x, y, string(durabilityCurrent));

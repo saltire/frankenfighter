@@ -29,3 +29,47 @@ if (hspd != 0) {
 
 // Depth increase as y decreases
 depth = -y;
+
+if (hspd != 0 || vspd != 0) {
+	with (leftArm) {
+		if (image_speed == 0) {
+			image_speed = 1;			
+			sc_animation_offset();
+		}
+	}
+	with (rightArm) {
+		if (image_speed == 0) {
+			image_speed = 1;			
+			sc_animation_offset();
+		}
+	}
+	with (leftLeg) {
+		if (image_speed == 0) {
+			image_speed = 1;			
+			sc_animation_offset();
+		}
+	}
+	with (rightLeg) {
+		if (image_speed == 0) {
+			image_speed = 1;			
+			sc_animation_offset();
+		}
+	}
+} else {
+	with (leftArm) {
+		image_speed = 0;
+		image_index = 0;
+	}
+	with (rightArm) {
+		image_speed = 0;
+		image_index = 0;
+	}
+	with (leftLeg) {
+		image_speed = 0;
+		image_index = 0;
+	}
+	with (rightLeg) {
+		image_speed = 0;
+		image_index = 0;
+	}	
+}

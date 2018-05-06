@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "432bfdb6-4a78-429d-af1b-6c1ff21eb170",
+            "Value": {
+                "id": "427bc007-c41d-4bf8-b6b8-f616df358ad6",
+                "resourcePath": "scripts\\sc_animation_offset\\sc_animation_offset.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b1bcfb4-a167-4644-98ef-af128ca26a8e",
             "Value": {
                 "id": "7db93319-62dd-4517-a340-9d77c500ecc9",
@@ -737,7 +745,8 @@
         "4b6d0ecd-23f2-430e-b513-b096d6805452",
         "187a55ac-584c-4118-9467-63f9b3aa29ce",
         "0bce2fe0-3301-4b2f-8b8b-0b11c7334703",
-        "9f705702-895c-48b2-9074-ec2da4337ba5"
+        "9f705702-895c-48b2-9074-ec2da4337ba5",
+        "432bfdb6-4a78-429d-af1b-6c1ff21eb170"
     ],
     "tutorial": ""
 }
