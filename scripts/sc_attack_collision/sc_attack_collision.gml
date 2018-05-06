@@ -1,4 +1,5 @@
 // Collision check for attacking
+
 if (attackTimeRemaining > 0 && !hittingEnemy) {	
 	// Check for collision with limbs
 	var collisionInstance = collision_rectangle(x + (colRectX1 * image_xscale), y + colRectY1, x + (colRectX2 * image_xscale), y + colRectY2, obj_limb, true, true);
@@ -20,6 +21,12 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 		hittingEnemy = true;
 		collisionInstance.durabilityCurrent -= baseAttackValue /*+ slotMatchBonusAttack*/;
     sc_hit_feedback(collisionInstance);
+	}
+	if (collisionInstance == noone && attackTimeRemaining >= attackTime - 1 && !hittingEnemy) {
+		var i = irandom(1);
+		if i == 0 audio_play_sound(sfx_punch_miss_1, 10, false);
+		if i == 1 audio_play_sound(sfx_punch_miss_2, 10, false);
+		//if i == 2 audio_play_sound(sfx_kick_miss, 10, false);
 	}
 	
 }

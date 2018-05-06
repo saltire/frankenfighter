@@ -24,4 +24,4 @@ speedBonus = 0;
 //slotMatchBonusAttack = 0;
 
 // Audio Array
-hitsounds[0] = sfx_bone_break;
+hitsounds[0] = sfx_bone_squish;
