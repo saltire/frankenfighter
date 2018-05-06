@@ -28,6 +28,6 @@ minSpawnDistance = 120;
 spawnX = 1350;
 spawnYMin = 340;
 spawnYMax = 680;
-spawnChance = 0.005;
+spawnChance = 0.004;
 
 randomize();

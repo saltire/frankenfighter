@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "a2901d7f-b2e4-4c81-a87f-07ece1d934ea",
+            "Value": {
+                "id": "76abb68e-4bad-4996-a179-8a29fb088b8b",
+                "resourcePath": "scripts\\sc_char_walk_cycle\\sc_char_walk_cycle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a3c00385-c066-4bfd-bb2f-e92522ebc68c",
             "Value": {
                 "id": "159725f3-b8af-4b2f-a339-16e07444f73d",
@@ -938,7 +946,8 @@
         "187a55ac-584c-4118-9467-63f9b3aa29ce",
         "0bce2fe0-3301-4b2f-8b8b-0b11c7334703",
         "9f705702-895c-48b2-9074-ec2da4337ba5",
-        "432bfdb6-4a78-429d-af1b-6c1ff21eb170"
+        "432bfdb6-4a78-429d-af1b-6c1ff21eb170",
+        "a2901d7f-b2e4-4c81-a87f-07ece1d934ea"
     ],
     "tutorial": ""
 }
