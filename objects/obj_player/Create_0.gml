@@ -1,6 +1,4 @@
-///@description INIT
-
-//event_inherited();
+event_inherited();
 
 var inst = instance_create_layer(x, y, layer, obj_rockets);
 inst.host = self;
@@ -8,12 +6,6 @@ inst.host = self;
 // Set speeds
 hspdMax = 3;
 vspdMax = 3;
-
-durabilityMax = 200;
-durabilityCurrent = durabilityMax;
-
-//attackCooldown = 20;
-attackCooldownRemaining = 0;
 
 var ox = abs(sprite_xoffset);
 var oy = sprite_yoffset;

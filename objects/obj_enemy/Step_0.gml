@@ -1,12 +1,19 @@
+event_inherited();
+
+
 var nearestPlayer = instance_nearest(x, y, obj_player);
 var nearestDir = point_direction(x, y, nearestPlayer.x, nearestPlayer.y);
+var nearestDist = point_distance(x, y, nearestPlayer.x, nearestPlayer.y);
+
+
+// Move toward player
 
 var stop = false;
 
 for (var i = 0; i < instance_count; i++) {
   var inst = instance_id_get(i);
   if (
-    inst != id &&
+    inst != id && instance_exists(inst) && 
     object_is_ancestor(inst.object_index, obj_char) && 
     (abs(angle_difference(point_direction(x, y, inst.x, inst.y), nearestDir)) < 90) &&
     (point_distance(x, y, inst.x, inst.y) < minDistance)
@@ -30,4 +37,33 @@ if (!stop) {
   depth = -y;
 }
 
-event_inherited();
+
+// Attack player
+
+if (attackCooldownRemaining <= 0 && nearestDist <= maxAttackDist) {
+  var limbs = [];
+  var count = 0;
+  
+  if (rightArm != noone) {
+    limbs[0] = rightArm;
+    count++;
+  }
+  if (leftArm != noone) {
+    limbs[count] = leftArm;
+    count++;
+  }
+  if (rightLeg != noone) {
+    limbs[count] = rightLeg;
+    count++;
+  }
+  if (leftLeg != noone) {
+    limbs[count] = leftLeg;
+    count++;
+  }
+  
+  debug(count);
+  if (count > 0) {
+    var limb = limbs[irandom(count - 1)];
+    sc_limb_attack(limb);
+  }
+}

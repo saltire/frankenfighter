@@ -1,11 +1,7 @@
-/// @description 
+event_inherited();
 
 // Initialization
 sc_player_input();
-
-if (attackCooldownRemaining > 0) {
-  attackCooldownRemaining -= 1;
-}
 
 if (bodyMap.limb != noone) {
   sc_limb_swap_select();
@@ -34,18 +30,6 @@ else {
   }
 }
 
-event_inherited();
-
 if (previewLimb != noone) {
   sc_limb_place(previewLimb);
-}
-
-if (durabilityCurrent <= 0) {
-	
-	sc_limb_eject(leftArm);
-	sc_limb_eject(rightArm);
-	sc_limb_eject(leftLeg);
-	sc_limb_eject(rightLeg);
-	
-	durabilityCurrent = durabilityMax;
 }
