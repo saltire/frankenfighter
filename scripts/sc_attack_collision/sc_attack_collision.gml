@@ -5,7 +5,7 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 	if (collisionInstance != noone && collisionInstance.host != noone && collisionInstance.host != host) {
 		hittingEnemy = true;
 		if (random(1) > criticalChance) {
-			collisionInstance.durabilityCurrent -= baseAttackValue + slotMatchBonusAttack;
+			collisionInstance.durabilityCurrent -= baseAttackValue /*+ slotMatchBonusAttack*/;
 		} else {
 			sc_limb_eject(collisionInstance);
 		}
@@ -15,7 +15,7 @@ if (attackTimeRemaining > 0 && !hittingEnemy) {
 	var collisionInstance = collision_rectangle(x + (colRectX1 * image_xscale), y + colRectY1, x + (colRectX2 * image_xscale), y + colRectY2, obj_player, true, true);
 	if (collisionInstance != noone) {
 		hittingEnemy = true;
-		collisionInstance.durabilityCurrent -= baseAttackValue + slotMatchBonusAttack;
+		collisionInstance.durabilityCurrent -= baseAttackValue /*+ slotMatchBonusAttack*/;
     sc_hit_feedback(collisionInstance);
 	}
 	

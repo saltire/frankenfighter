@@ -32,13 +32,15 @@ grav = 1;
 hittingEnemy = false;
 
 // STATS SETUP for inheritence
-baseAttackValue = 4;
-attackCooldown = 16;
-knockbackStrength = 3 * 3;
+// STATS SETUP
+baseAttackValue = 10;
+attackCooldown = 1 * BASEATTACKCOOLDOWN;
 criticalChance = 1/20;
-durabilityLoss = 2;
+durabilityLoss = 1;
 durabilityMax = 80;
 durabilityCurrent = durabilityMax;
-resistance = 1 - (1/8);
-slotMatchBonusSpeed = 1;
-slotMatchBonusAttack = 2;
+
+//knockbackStrength = 3 * 3;
+//resistance = 1 - (1/8);
+//slotMatchBonusSpeed = 0;
+//slotMatchBonusAttack = 0;

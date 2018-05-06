@@ -10,3 +10,16 @@ colRectX1 = 97 - sprite_xoffset;
 colRectY1 = 48 - sprite_yoffset;
 colRectX2 = 114 - sprite_xoffset;
 colRectY2 = 62 - sprite_yoffset;
+
+// STATS SETUP
+baseAttackValue = 4;
+attackCooldown = 0.5 * BASEATTACKCOOLDOWN;
+criticalChance = 1/20;
+durabilityLoss = 4;
+durabilityMax = 80;
+durabilityCurrent = durabilityMax;
+
+//knockbackStrength = 3 * 3;
+//resistance = 1 - (1/8);
+//slotMatchBonusSpeed = 0;
+//slotMatchBonusAttack = 0;
