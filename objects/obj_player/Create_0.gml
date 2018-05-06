@@ -26,7 +26,6 @@ headX = 76 - ox;
 headY = 39 - oy;
 
 // Create map
-bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
 limbSwap = noone;
 previewLimb = noone;
 
@@ -34,22 +33,18 @@ previewLimb = noone;
 rightArm = instance_create_layer(x, y, layer, rightArmObj);
 rightArm.host = self;
 rightArm.slot = 0;
-bodyMap.filledSlots[0] = true;
 
 leftArm = instance_create_layer(x, y, layer, leftArmObj);
 leftArm.host = self;
 leftArm.slot = 1;
-bodyMap.filledSlots[1] = true;
 
 rightLeg = instance_create_layer(x, y, layer, rightLegObj);
 rightLeg.host = self;
 rightLeg.slot = 2;
-bodyMap.filledSlots[2] = true;
 
 leftLeg = instance_create_layer(x, y, layer, leftLegObj);
 leftLeg.host = self;
 leftLeg.slot = 3;
-bodyMap.filledSlots[3] = true;
 
 head = instance_create_layer(x, y, layer, headObj);
 head.host = self;

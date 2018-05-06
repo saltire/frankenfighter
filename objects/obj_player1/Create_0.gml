@@ -9,9 +9,6 @@ keyRPunch = ord("T");
 keyLKick = ord("H");
 keyRKick = ord("G");
 
-mapX = 240;
-mapY = 20;
-
 leftArmObj = obj_robot_arm;
 rightArmObj = obj_robot_arm;
 leftLegObj = obj_robot_leg;

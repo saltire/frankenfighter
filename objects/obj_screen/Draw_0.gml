@@ -1,3 +1,5 @@
+draw_self();
+
 for (var s = 0; s < 4; s++) {
   coord = coords[s];
   
