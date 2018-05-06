@@ -79,9 +79,12 @@ else {
       walkDelayRemaining -= 1;
     }
     else {
+	  var speedMod = 0;
+      if (leftLeg != noone) speedMod += leftLeg.speedBonus;
+      if (rightLeg != noone) speedMod += rightLeg.speedBonus;
       var walkDir = nearestDir + irandom_range(-40, 40);
-      var dx = lengthdir_x(walkSpeed, walkDir);
-      var dy = lengthdir_y(walkSpeed, walkDir);
+      var dx = lengthdir_x(max(walkSpeed, walkSpeed + (speedMod/2)), walkDir);
+      var dy = lengthdir_y(max(walkSpeed, walkSpeed + (speedMod/2)), walkDir);
       var destX = x + dx;
       var destY = y + dy;
 

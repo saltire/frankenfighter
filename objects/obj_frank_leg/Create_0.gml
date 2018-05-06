@@ -19,6 +19,8 @@ durabilityLoss = 2;
 durabilityMax = 60;
 durabilityCurrent = durabilityMax;
 
+speedBonus = -1;
+
 //knockbackStrength = 3 * 3;
 //resistance = 1 - (1/8);
 //slotMatchBonusSpeed = 0;

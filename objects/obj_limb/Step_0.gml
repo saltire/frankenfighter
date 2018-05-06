@@ -36,3 +36,5 @@ if (host && durabilityCurrent <= 0) {
 
 // Attack collision function call
 sc_attack_collision();
+
+depth = -y;

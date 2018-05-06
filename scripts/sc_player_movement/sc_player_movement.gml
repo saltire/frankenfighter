@@ -1,6 +1,10 @@
+var speedMod = 0;
+if (leftLeg != noone) speedMod += leftLeg.speedBonus;
+if (rightLeg != noone) speedMod += rightLeg.speedBonus;
+
 // Set speed based on input
-var hspd = hspdMax * hInput;
-var vspd = vspdMax * vInput;
+var hspd = (hspdMax + speedMod) * hInput;
+var vspd = (vspdMax + speedMod) * vInput;
 
 if (attackCooldownRemaining > 0) {
   hspd = 0;
