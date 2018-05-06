@@ -9,7 +9,7 @@ var limb = argument0;
 if (limb != noone) {
   limb.tossSpeedX = irandom_range(-10, 10);
   limb.tossSpeedY = -10 + irandom_range(-3, 3);
-  limb.tossTargetY = limb.host.y + irandom_range(-15, 15);
+  limb.tossTargetY = (limb.host != noone ? limb.host.y : limb.y) + irandom_range(-15, 15);
 
   if (limb.host.leftLeg == limb) {
   	limb.host.leftLeg = noone;

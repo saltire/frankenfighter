@@ -33,6 +33,7 @@ if (count >= 4) {
 }
 
 
+maxCount = 8;
 minSpawnDistance = 120;
 spawnX = 1350;
 spawnYMin = 340;

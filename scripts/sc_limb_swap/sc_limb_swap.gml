@@ -20,7 +20,7 @@ if (bodyMap.slot != noone) {
   }
   
   if (oldLimb != noone) {
-	oldLimb.image_alpha = 1;
+	  oldLimb.image_alpha = 1;
   }
   
   if (previewLimb != noone) {
