@@ -10,7 +10,7 @@ keyLKick = ord("H");
 keyRKick = ord("G");
 
 leftArmObj = obj_tentacle_leg;
-rightArmObj = obj_tetsuo_arm;
+rightArmObj = obj_gingerbread_arm;
 leftLegObj = obj_tentacle_leg;
 rightLegObj = obj_goat_leg;
 headObj = obj_player_head_cyclops;
