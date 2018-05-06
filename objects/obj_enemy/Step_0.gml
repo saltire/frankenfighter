@@ -28,8 +28,20 @@ else {
   }
   
   image_xscale = sign(lengthdir_x(1, nearestDir));
+}
 
-  if (!stop) {
+if (stop) {
+  walking = false;
+}
+else {
+  if (!walking) {
+    walking = true;
+    walkDelayRemaining = walkDelay;
+  }
+  if (walkDelayRemaining > 0) {
+    walkDelayRemaining -= 1;
+  }
+  else {
     var walkDir = nearestDir + irandom_range(-40, 40);
     var dx = lengthdir_x(walkSpeed, walkDir);
     var dy = lengthdir_y(walkSpeed, walkDir);
