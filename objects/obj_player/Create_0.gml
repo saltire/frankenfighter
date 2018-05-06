@@ -1,6 +1,6 @@
 ///@description INIT
 
-event_inherited();
+//event_inherited();
 
 
 // Set speeds
@@ -22,6 +22,8 @@ frontLegX = 66 - ox;
 frontLegY = 100 - oy;
 backLegX = 85 - ox;
 backLegY = 98 - oy;
+headX = 76 - ox;
+headY = 39 - oy;
 
 // Create map
 bodyMap = instance_create_layer(mapX, mapY, "BodyMaps", obj_body_map);
@@ -48,3 +50,7 @@ leftLeg = instance_create_layer(x, y, layer, leftLegObj);
 leftLeg.host = self;
 leftLeg.slot = 3;
 bodyMap.filledSlots[3] = true;
+
+head = instance_create_layer(x, y, layer, headObj);
+head.host = self;
+head.slot = 4;

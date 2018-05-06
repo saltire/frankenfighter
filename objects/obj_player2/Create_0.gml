@@ -12,9 +12,10 @@ keyRKick = ord("K");
 mapX = 840;
 mapY = 20;
 
-leftArmObj = obj_arm_stick_green;
-rightArmObj = obj_arm_stick_yellow;
-leftLegObj = obj_leg_stick_red;
-rightLegObj = obj_leg_stick_blue;
+leftArmObj = obj_robot_arm;
+rightArmObj = obj_robot_arm;
+leftLegObj = obj_robot_leg;
+rightLegObj = obj_robot_leg;
+headObj = obj_player_head_cyclops;
 
 event_inherited();

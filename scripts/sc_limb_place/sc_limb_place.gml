@@ -31,6 +31,7 @@ if instance_exists(limb) {
   else if (limb.slot == 4) {
     offsetX = headX;
     offsetY = headY;
+    relDepth = -1;
   }
   
   limb.x = x + offsetX * image_xscale;
