@@ -39,3 +39,13 @@ event_inherited();
 if (previewLimb != noone) {
   sc_limb_place(previewLimb);
 }
+
+if (durabilityCurrent <= 0) {
+	
+	sc_limb_eject(leftArm);
+	sc_limb_eject(rightArm);
+	sc_limb_eject(leftLeg);
+	sc_limb_eject(rightLeg);
+	
+	durabilityCurrent = durabilityMax;
+}

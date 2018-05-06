@@ -7,6 +7,8 @@
 hspdMax = 3;
 vspdMax = 3;
 
+durabilityMax = 200;
+durabilityCurrent = durabilityMax;
 
 //attackCooldown = 20;
 attackCooldownRemaining = 0;

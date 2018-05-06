@@ -3,10 +3,10 @@ event_inherited();
 attackSprite = spr_robot_leg_attack;
 
 // Set hurt box rectangle
-colRectX1 = 54;
-colRectY1 = 17;
-colRectX2 = 77;
-colRectY2 = 41;
+colRectX1 = 131 - sprite_xoffset;
+colRectY1 = 100 - sprite_yoffset;
+colRectX2 = 162 - sprite_xoffset;
+colRectY2 = 136 - sprite_yoffset;
 
 // STATS SETUP
 slotType = "leg";

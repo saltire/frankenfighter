@@ -23,4 +23,6 @@ var count = array_length_1d(controllers);
   //player2.joy = controllers[1];
   player2.bodyMap = instance_create_layer(840, 20, "Screens", obj_screen);
 //}
-  
+
+
+randomize();
