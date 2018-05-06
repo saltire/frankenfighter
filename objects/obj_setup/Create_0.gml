@@ -18,13 +18,13 @@ player1.bodyMap = instance_create_layer(40, 0, "BodyMaps", bodyMapObj);
 player1.bodyMap.sprite_index = spr_body_map_red;
 player1.bodyMap.char = player1;
   
-if (count >= 2) {
+//if (count >= 2) {
   player2 = instance_create_layer(380, 580, "Characters", obj_player2);
   instance_create_layer(360, 0, "Screens", screenObj);
   player2.bodyMap = instance_create_layer(360, 0, "BodyMaps", bodyMapObj);
   player2.bodyMap.sprite_index = spr_body_map_blue;
   player2.bodyMap.char = player2;
-}
+//}
 
 if (count >= 3) {
   player3 = instance_create_layer(480, 520, "Characters", obj_player3);
