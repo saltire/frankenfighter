@@ -3,10 +3,10 @@ event_inherited();
 attackSprite = spr_robot_leg_attack;
 
 // Set hurt box rectangle
-colRectX1 = 131 - sprite_xoffset;
+colRectX1 = 100 - sprite_xoffset;
 colRectY1 = 100 - sprite_yoffset;
 colRectX2 = 162 - sprite_xoffset;
-colRectY2 = 136 - sprite_yoffset;
+colRectY2 = 133 - sprite_yoffset;
 
 // STATS SETUP
 baseAttackValue = 10;

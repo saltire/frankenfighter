@@ -3,10 +3,10 @@ event_inherited();
 attackSprite = spr_gingerbread_leg_attack;
 
 // Set hurt box rectangle
-colRectX1 = 131 - sprite_xoffset;
-colRectY1 = 100 - sprite_yoffset;
-colRectX2 = 162 - sprite_xoffset;
-colRectY2 = 136 - sprite_yoffset;
+colRectX1 = 92 - sprite_xoffset;
+colRectY1 = 92 - sprite_yoffset;
+colRectX2 = 150 - sprite_xoffset;
+colRectY2 = 120 - sprite_yoffset;
 
 // STATS SETUP
 baseAttackValue = 4;
