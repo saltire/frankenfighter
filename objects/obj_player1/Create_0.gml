@@ -16,3 +16,5 @@ rightLegObj = obj_goat_leg;
 headObj = obj_player_head_cyclops;
 
 event_inherited();
+
+hilightColor = c_red;

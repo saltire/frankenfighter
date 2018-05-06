@@ -33,3 +33,7 @@ else {
 if (previewLimb != noone) {
   sc_limb_place(previewLimb);
 }
+
+// Reset this every turn before collision events
+debug("x");
+hilightLimb = noone;

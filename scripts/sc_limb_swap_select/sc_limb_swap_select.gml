@@ -13,6 +13,7 @@ if (rPunchPressed || lPunchPressed || rKickPressed || lKickPressed) {
     instance_destroy(previewLimb);
   }
   previewLimb = instance_create_layer(x, y, "Characters", bodyMap.limb.object_index);
+  previewLimb.lastHilitePlayer = self;
 }
 
 //if (hInput < 0 && vInput < 0) {

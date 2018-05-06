@@ -8,8 +8,6 @@ if (attackTimeRemaining > 0) {
 
 if (hitFeedbackTimeRemaining > 0) {
   hitFeedbackTimeRemaining -= 1;
-  
-  
 }
 
 if (tossSpeedX != 0) {

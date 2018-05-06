@@ -23,6 +23,8 @@ headY = 39 - oy;
 
 // Create map
 limbSwap = noone;
+hilightLimb = noone;
+hilightColor = c_white;
 previewLimb = noone;
 
 // Set starter limbs
