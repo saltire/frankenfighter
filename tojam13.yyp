@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "3dfef2d2-3a1f-4e1f-a252-af84ca02f534",
+            "Value": {
+                "id": "7b948a49-ce53-4abe-a7e1-5e7bde328582",
+                "resourcePath": "objects\\obj_tetsuo_leg\\obj_tetsuo_leg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40118745-7f27-41ae-a75e-0d751ff26507",
             "Value": {
                 "id": "18ab1a14-a666-49f9-8be1-c24f99205263",
@@ -711,6 +719,14 @@
             }
         },
         {
+            "Key": "7c6a6823-3b16-4a75-9098-ef60b864735b",
+            "Value": {
+                "id": "7cfd03ef-7be4-4e13-8518-95a6bb73f2b4",
+                "resourcePath": "sprites\\spr_skeleton_arm_attack\\spr_skeleton_arm_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f99d53e-39af-4bb2-8595-3d168b81870b",
             "Value": {
                 "id": "9cba5e46-1e99-4d0a-a5fb-dafaa9638c96",
@@ -943,11 +959,27 @@
             }
         },
         {
+            "Key": "a9271074-4236-41b4-8c32-89c055d89eb8",
+            "Value": {
+                "id": "e11f81a9-d4b2-49b3-ac88-edd0d6c3ff7c",
+                "resourcePath": "objects\\obj_skeleton_arm\\obj_skeleton_arm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9a8a0f5-50e9-4fb1-ae2e-359b3a62dd89",
             "Value": {
                 "id": "c0dd6659-a255-4a91-93ab-d0ae53b2baee",
                 "resourcePath": "views\\a9a8a0f5-50e9-4fb1-ae2e-359b3a62dd89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa6810b1-872f-4eeb-93d2-e8871633240a",
+            "Value": {
+                "id": "18ff7fc4-e0a8-4d65-bb13-5d08d453469d",
+                "resourcePath": "sprites\\spr_tetsuo_leg_attack\\spr_tetsuo_leg_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -971,6 +1003,14 @@
             "Value": {
                 "id": "ab0d02a6-7972-4780-92c5-048e3fd8c4b8",
                 "resourcePath": "objects\\obj_player1\\obj_player1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b560f90f-ca95-4626-832e-946e0185c737",
+            "Value": {
+                "id": "91eee6b6-5d8b-4c4d-994f-b2829442ce7e",
+                "resourcePath": "objects\\obj_thrower\\obj_thrower.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1247,6 +1287,14 @@
             }
         },
         {
+            "Key": "e0e9b093-5b00-4974-bdba-059a286709e0",
+            "Value": {
+                "id": "2526f210-6973-4997-ab5f-57de224ee64a",
+                "resourcePath": "sprites\\spr_thrower\\spr_thrower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e131a17f-0c5e-4e74-912c-a18e41e1d0f6",
             "Value": {
                 "id": "5b482585-744f-4686-8c8f-b52979fe3eb7",
@@ -1259,6 +1307,14 @@
             "Value": {
                 "id": "d287eebe-b0ee-40e2-a94c-fe75e554c9da",
                 "resourcePath": "sprites\\spr_goat_leg_attack\\spr_goat_leg_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e58317b8-4245-44d0-9bac-74d8b133e623",
+            "Value": {
+                "id": "66fb485d-5496-4e6f-be17-e538011750df",
+                "resourcePath": "sprites\\spr_skeleton_arm_walk\\spr_skeleton_arm_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1359,10 +1415,26 @@
             }
         },
         {
+            "Key": "fa57665c-35b2-4000-87ca-7e37d35c4063",
+            "Value": {
+                "id": "9eba3dac-b9cf-48e9-9a00-a4a86232cb6f",
+                "resourcePath": "views\\fa57665c-35b2-4000-87ca-7e37d35c4063.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fb19d616-70f8-4ac3-9f39-443f0bbf43e5",
             "Value": {
                 "id": "6c2f5cda-98b3-47a1-a40f-1e03bc1128a2",
                 "resourcePath": "sprites\\spr_player_body_blue\\spr_player_body_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb950448-a6b2-44cd-af4e-f8295544169b",
+            "Value": {
+                "id": "459058e9-c697-4bf1-9cfc-89ef50368237",
+                "resourcePath": "sprites\\spr_tetsuo_leg_walk\\spr_tetsuo_leg_walk.yy",
                 "resourceType": "GMSprite"
             }
         },

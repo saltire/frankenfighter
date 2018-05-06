@@ -1,23 +1,14 @@
 {
-    "id": "1fadc811-2d69-4a62-871e-7a1202b21100",
+    "id": "b560f90f-ca95-4626-832e-946e0185c737",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tetsuo_arm",
+    "name": "obj_thrower",
     "eventList": [
-        {
-            "id": "064a900b-0ffc-44fa-938b-258f4147b0a1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "1fadc811-2d69-4a62-871e-7a1202b21100"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8b02d476-25cf-4103-b9b4-dcf18b37bafe",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1c4e3c4c-7c43-4806-a461-8a4f1644581d",
+    "spriteId": "e0e9b093-5b00-4974-bdba-059a286709e0",
     "visible": true
 }

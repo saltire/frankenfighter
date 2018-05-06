@@ -56,12 +56,16 @@ randomArms = [
   obj_tentacle_arm, 
   obj_tetsuo_arm,
   obj_tetsuo_arm,
+  obj_skeleton_arm,
+  obj_skeleton_arm,
 ];
 randomLegs = [
   obj_gingerbread_leg, 
   obj_frank_leg, 
   obj_robot_leg, 
   obj_tentacle_leg, 
+  obj_tetsuo_leg,
+  obj_tetsuo_leg,
   obj_goat_leg,
   obj_goat_leg,
 ];

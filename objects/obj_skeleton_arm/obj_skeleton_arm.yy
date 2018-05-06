@@ -1,18 +1,18 @@
 {
-    "id": "1fadc811-2d69-4a62-871e-7a1202b21100",
+    "id": "a9271074-4236-41b4-8c32-89c055d89eb8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tetsuo_arm",
+    "name": "obj_skeleton_arm",
     "eventList": [
         {
-            "id": "064a900b-0ffc-44fa-938b-258f4147b0a1",
+            "id": "4c877d4b-8450-411b-9e6b-514c406c2819",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "1fadc811-2d69-4a62-871e-7a1202b21100"
+            "m_owner": "a9271074-4236-41b4-8c32-89c055d89eb8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1c4e3c4c-7c43-4806-a461-8a4f1644581d",
+    "spriteId": "e58317b8-4245-44d0-9bac-74d8b133e623",
     "visible": true
 }
