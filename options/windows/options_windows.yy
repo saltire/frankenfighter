@@ -10,7 +10,7 @@
     "option_windows_copyright_info": "(c) 2018 Post-Apocalyptic SlimeLords",
     "option_windows_description_info": "TOJam 2018",
     "option_windows_display_cursor": false,
-    "option_windows_display_name": "Made in GameMaker Studio 2",
+    "option_windows_display_name": "FrankenFighter",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "FrankenFighter",
     "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
