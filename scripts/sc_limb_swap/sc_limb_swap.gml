@@ -35,6 +35,7 @@ if (instance_exists(bodyMap.limb)) {
     
     newLimb.host = self;
     newLimb.slot = bodyMap.slot;
+    newLimb.selectingPlayer = noone;
     newLimb.image_angle = 0;
     newLimb.image_alpha = 1;
     newLimb.attacking = false;
